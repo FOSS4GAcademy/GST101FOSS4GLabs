@@ -346,12 +346,12 @@ Now that you have digitized data into the empty shapefile you created you will l
 
 20.	Toggle off editing and Save.
 
-5	Conclusion
+###	5.	Conclusion
 
 In this lab, you have successfully digitized information using the five-step digitizing process.  Additionally, you have recreated the original source data (scanned as a raster) in the vector format.  Digitizing can be a time-consuming and tedious process, but can yield useful geographic information.
 
 
-6	Discussion Questions
+###	6.	Discussion Questions
 
 1.	What can contribute to errors in the georeferencing process?
 
@@ -361,7 +361,7 @@ In this lab, you have successfully digitized information using the five-step dig
 
 4.	Aerial photography has a lot of information in it. What other features could you digitize off of the imagery in this lab? Explain what vector geometry you would use for each. 
 
-7	Challenge Assignment
+###	7.	Challenge Assignment
 
 You have successfully created the parcel data from a scanned map. You have also fixed the parks and roads data in this part of town. There are some sports facilities visible: two football fields and a baseball field. Create a new layer and digitize those three facilities (include the grassy field areas at a minimum). 
 

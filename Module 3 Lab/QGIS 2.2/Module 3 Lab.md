@@ -436,13 +436,13 @@ For more information on the UTM Coordinate system, read the USGS Fact Sheet 077-
 
 [http://pubs.usgs.gov/fs/2001/0077/report.pdf](http://pubs.usgs.gov/fs/2001/0077/report.pdf)
 
-5	Conclusion
+###	5.	Conclusion
 
 In this lab, you have explored coordinate systems and map projections.  Each map projection distorts the Earth differently.  You are able to modify the map projections provided in QGIS to suite your mapping needs.  It is important that you set the correct map projection for each data layer, and for the project.  
 
 When you import spatial data into QGIS, you must know the projection, if any, the grid system, and the datum, of your data.  Mostly you will find the data in decimal degrees, that is, latitude and longitude coordinates.  Base maps with underlying coordinates that are geodetic decimal degrees are the most versatile when constructing a map database.  It is important that if you plan on doing any spatial analysis with your data, that you first project the data in to the same coordinate system to get maximum accuracy.
 
-6	Discussion Questions
+###	6.	Discussion Questions
 
 1.	Based on the world map projections covered in this lab, which industries would best be served by each projection (provide two examples)?  Does the entire industry need to agree on a single one?  What problems could arise from the use of different projections?
 

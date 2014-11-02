@@ -352,11 +352,11 @@ Date: Month Day, Year
 
 ![Final Map](figures/Final_Map.png " Final Map ")
 
-5	Conclusion
+###	5.	Conclusion
 
 In this lab you’ve created a well-designed map using some of the cartography tools available in QGIS Desktop. You created a nice map highlighting federal land ownership within sage-grouse habitat for a client. This involved styling layers, styling layers by categorical attributes and crafting a map composition.
 
-6	Discussion Questions
+###	6.	Discussion Questions
 
 1.	Export the final map as a high resolution jpg for your instructor to grade.
 
@@ -366,7 +366,7 @@ In this lab you’ve created a well-designed map using some of the cartography t
 
 4.	No map is perfect. Critique this map. What do you like about it? What do  you dislike about it? How would you change this map to improve it? Would you add other data layers or add labels?
 
-7	Challenge Assignment
+###	7.	Challenge Assignment
 
 Another biologist working with black bears on the east coast heard about your great work on the sage-grouse map. She would like you to create a similar map for her. The data she is providing is in the Lab 4/Data/Challenge folder.
 
