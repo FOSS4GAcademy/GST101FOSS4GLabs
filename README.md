@@ -6,31 +6,16 @@ This curriculum currently contains labs written to use FOSS4G software such as Q
 
 ### Lab Topics
 
-+ [ ] Lab 0 - Getting to Know FOSS and FOSS4G
++ [x] Lab 0 - Getting to Know FOSS and FOSS4G
 + [x] Lab 1 - GIS Application Paper Assignment
-+ [ ] Lab 2 - Spatial Data Models
-+ [ ] Lab 3 - Understanding Coordinate Systems and Map Projections
-+ [ ] Lab 4 - Displaying Geospatial Data
-+ [ ] Lab 5 - Creating Geospatial Data
-+ [ ] Lab 6 - Understanding Remote Sensing and Analysis
-+ [ ] Lab 7 - Basic Geospatial Analysis Techniques
++ [x] Lab 2 - Spatial Data Models
++ [x] Lab 3 - Understanding Coordinate Systems and Map Projections
++ [x] Lab 4 - Displaying Geospatial Data
++ [x] Lab 5 - Creating Geospatial Data
++ [x] Lab 6 - Understanding Remote Sensing and Analysis
++ [x] Lab 7 - Basic Geospatial Analysis Techniques
 
 *Labs with a checkmark are completely converted to Markdown*
-
-### To-Be-Converted Lab Contents
-
-*We would love your help!*  Converting each module from MS Word to Markdown takes time, and, 
-the more that help us convert, the faster we can start tracking changes more effectively 
-in GitHub.  If you would like to contribute a conversion, [fork, convert, then submit a pull request][8]. 
-Once we receive the pull request, we will evaluate the request to make sure it follows the format 
-and philosophy of the project, and then incorporate it in this repository (with our thanks!).
-
-Each to-be-converted lab folder contains the following resources:
-
-+ **Module *n* Lab.md** - Markdown file of lab - typically a stub
-+ **SOURCE Module *n* Lab.docx** - MS Word document of the lab *to be converted to Markdown*
-+ **figures** - Folder containing all images reference in the lab
-+ **Lab *n* Data** - Folder containing all data referenced in the lab
 
 ### Completed Lab Contents
 
@@ -40,7 +25,8 @@ software it is written for (ex. `Module 1 Lab\QGIS 2.2\...`).  The hope is that 
 Each lab contains the following four resources:
 
 + **Module *n* Lab.md** - Markdown file of lab
-+ **Module *n* Lab.docx** - MS Word document of the lab
++ **Module *n* Lab.docx** - MS Word document of the lab converted from Markdown
++ **Module *n* Lab.pdf** - PDF document of the lab converted from Markdown
 + **figures** - Folder containing all images reference in the lab
 + **Lab *n* Data** - Folder containing all data referenced in the lab
 
