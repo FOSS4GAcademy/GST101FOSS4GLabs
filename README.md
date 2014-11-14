@@ -26,9 +26,8 @@ Each lab contains the following four resources:
 
 + **Module *n* Lab.md** - Markdown file of lab
 + **Module *n* Lab.docx** - MS Word document of the lab converted from Markdown
-+ **Module *n* Lab.pdf** - PDF document of the lab converted from Markdown
 + **figures** - Folder containing all images reference in the lab
-+ **Lab *n* Data** - Folder containing all data referenced in the lab
++ **Lab *n* Data** - Folder containing all data referenced in the lab. If the data is too large for GitHub, a Markdown file containing a link to the data will instead be included.
 
 ### Feedback
 [Open an issue][7] or [fork and submit a pull request][8] on github, or, email [Richard.Smith@tamucc.edu][6].

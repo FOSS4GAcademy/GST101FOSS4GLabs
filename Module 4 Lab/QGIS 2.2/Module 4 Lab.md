@@ -62,8 +62,6 @@ We recommend that you do not watch the videos before you attempt the tasks.  The
 
 In this first task you will learn a new way to add data to QGIS Desktop. You will then set the projection for the map project, organize the data layers in the Table of Contents and change the layer names.
 
-1.	The data for this lab is located at C:\GST101\Lab 4 on the lab machine. Copy this data to a new working directory of your choosing.
-
 2.	Open QGIS Desktop 2.2.0.  
 
 In Lab 2 you learned how to add data to QGIS Desktop by using the Add Vector Data and Add Raster Data buttons. Now you’ll learn another method of adding data to QGIS Desktop. You’ll use the QGIS Desktop Browser tab.

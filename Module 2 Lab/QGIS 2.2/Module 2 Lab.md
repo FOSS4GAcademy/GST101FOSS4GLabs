@@ -56,14 +56,7 @@ We recommend that you do not watch the videos before you attempt the tasks.  The
 
 In this task, you will become familiar with QGIS Browser. The first step in working on a project with geospatial datasets is to organize your workspace. It is important that we organize datasets logically on the computer and make them easy to find. In this task, you will obtain a copy of the lab data and explore how the data is organized using QGIS Browser.
 
-1.	The data for this lab is located at C:\GIS101\Lab 2 on the lab machine. You may copy the entire GST 101 folder to a new working directory of your choosing.
-2.	To do this use Windows Explorer. Click Start -> All Programs -> Accessories -> Window Explorer.
-3.	Click on the Local Disk (C:) drive on the left hand file tree. NOTE: You may have to expand the Computer by clicking the arrow to the left.
-4.	Locate the GST 101 Folder. Right click on the GST101 folder and choose Copy from the context menu. 
-5.	Choose your working directory.
-6.	Right click on your new working directory and choose Paste from the context menu.
-
-Now open QGIS Browser
+Open QGIS Browser
 
 1.	Click Start -> All Programs -> OSGeo4W -> QGIS Browser.
 
@@ -71,8 +64,8 @@ The interface to QGIS Browser is simple and clean (Figure below ). The File Tree
 
 ![QGIS Browser ](figures/QGIS_Browser.png " QGIS Browser ")
 
-2.	Look at the File Tree. Click the arrow to the left of the C: drive. You will now see all of the subfolders directly under the C:\ folder.
-3.	Expand C:\GST101\Lab 2\Data in the File Tree by clicking the arrows to the left of each folder. You will now see the contents of the Data folder for the lab (Figure below).
+2.	Look at the File Tree. Click the arrow to the left of the C: drive. You will now see all of the subfolders directly under the C:/ folder.
+3.	Expand <lab folder>/Lab 2/Data in the File Tree by clicking the arrows to the left of each folder. You will now see the contents of the Data folder for the lab (Figure below).
 
 ![Lab Data in QGIS Browser ](figures/Lab_Data_in_QGIS_Browser.png " Lab Data in QGIS Browser ")
 

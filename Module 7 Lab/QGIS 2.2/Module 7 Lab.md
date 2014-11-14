@@ -161,7 +161,7 @@ Now that you have collected the necessary data, you will add it to a blank QGIS 
 
 2.	Using the Add Vector Layer button add all four shapefiles to QGIS Desktop. (Figure below).
 
-![Add Vector Data](figures/Add_Vector_Data.png " Add Vector Data ")
+![Add Vector Data](figures/Add_Vector_Data.png "Add Vector Data")
 
 3.	Organize the layers in the Table of Contents so that the Bern monuments layer is on top, followed by the RoadInventory, tl_2010_35001_tract10 (tracts)  and jurisdiction.
 
@@ -183,7 +183,7 @@ Projecting on the fly is fine for cartographic purposes. However, when conductin
 	
 	d.	Click OK.
 
-![Reprojecting the Bern layer](figures/Reprojecting_the_Bern_layer.png " Reprojecting the Bern layer ")
+![Reprojecting the Bern layer](figures/Reprojecting_the_Bern_layer.png "Reprojecting the Bern layer")
 
 8.	You no longer need the original Bern layer in your map. Right click on the original Bern layer and choose Remove. Click OK on the Remove Objects window.
 
@@ -197,11 +197,11 @@ For the map, you will need a polygon that represents the county boundary.  The t
 
 1.	From the menu bar choose Vector -> Geoprocessing Tools -> Dissolve (Figure below).
 
-![Dissolve tool](figures/Dissolve_tool.png " Dissolve tool ")
+![Dissolve tool](figures/Dissolve_tool.png "Dissolve tool")
 
 2.	The input vector data will be tl_2010_35001_tract10_spcs. You can dissolve based on attributes. For example, if you had counties of the United States you could dissolve them based on the State name attribute and create a state boundaries layer. Here you will dissolve all the tract polygons into one to create the county boundary. For Dissolve field choose – Dissolve all --. Name the output shapefile Bernalillo_county.shp and save it to your MyData folder (Figure below).
 
-![Dissolve tool settings](figures/Dissolve_tool_settings.png " Dissolve tool settings ")
+![Dissolve tool settings](figures/Dissolve_tool_settings.png "Dissolve tool settings")
 
 3.	Remove the tl_2010_35001_tract10_spcs layer. It was an intermediate dataset. All you need is the Bernalillo County Boundary. 
 
@@ -229,7 +229,7 @@ You will want to filter the monuments so that you only have the ones with the or
 
 1.	Double click the Bern_spcs layer to open the Layer Properties. Select the General tab. Find Feature subset. This is where you can define the contents of a layer based on the attributes. It is a way to filter a layer. Click the Query Builder button to open the Query Builder. Here you can write a SQL query to filter your data. All the attribute fields are listed on the left. Below the fields are operators you can use to build your SQL expression. The expression is built in the blank window at the bottom. It is best to double click fields and field values while building the expression so that you avoid syntax errors. Double click on the field ELEV_ORDER and it will appear in the expression window surrounded by double quotes. Click the = sign under operators. Then click the All button below Values to get a list of the values contained in that field. Double click the 1 value so that your expression reads "ELEV_ORDER" = '1’.  Since you want monuments that have both an elevation order of 1 and were last recovered on or after 1995 you will now use the AND operator. The AND operator selects records that meet conditions on both sides. After the AND operator create the portion of the expression dealing with LAST_RECV. Add another AND operator and create the third portion of the expression dealing with the SAT_USE. The final expression should look like Figure below.
 
-![Monuments SQL Filter](figures/Monuments_SQL_Filter.png " Monuments SQL Filter ")
+![Monuments SQL Filter](figures/Monuments_SQL_Filter.png "Monuments SQL Filter")
 
 2.	Click the Test button. You should get a Query result of 47 rows. If you have a syntax error you will be notified and you’ll have to figure out where the error lies. Any extra tics (‘) or quotes (“) will throw an error. Click OK.
 
@@ -239,7 +239,7 @@ You will want to filter the monuments so that you only have the ones with the or
 
 5.	QGIS should now resemble Figure below.
 
-![QGIS with filtered monuments](figures/QGIS_with_filtered_monuments.png " QGIS with filtered monuments ")
+![QGIS with filtered monuments](figures/QGIS_with_filtered_monuments.png "QGIS with filtered monuments")
 
 6.	Save your project.
 
@@ -254,23 +254,23 @@ Now that you have the county boundary layer and the monuments selected, you will
 
 3.	Open the Layer properties for jurisdiction and go to the General tab. Under Feature subset click the Query Builder button and create a query that selects only the JURISDICTI of Albuquerque. Click OK on the Query Builder and close the Layer Properties.  Drag jurisdicti above the Bernalillo County layer and turn off RoadInventory. Your map should resemble Figure below.
 
-![QGIS with filtered jurisdiction](figures/QGIS_with_filtered_jurisdiction.png " QGIS with filtered jurisdiction ")
+![QGIS with filtered jurisdiction](figures/QGIS_with_filtered_jurisdiction.png "QGIS with filtered jurisdiction")
 
 4.	Open the attribute table for RoadInventory. There is a lot of information in here. So far you have filtered a layer within QGIS but left the data on disk the same. Here you will select out the major roads and save them to a new shapefile. What field would you use to select out major roads?
 
-5.	Click on the Select features using an expression button. ![expression button](figures/expression_button.png " expression button ")  
+5.	Click on the Select features using an expression button. ![expression button](figures/expression_button.png "expression button")  
 
 6.	A similar query window opens as when you are filtering a layer. Instead of the fields being listed on the left, here you have a series of functions. If you scroll down though you will see that one category is Fields and Values. Expand Fields and Values. Scroll down until you find the Class field. Double click on Class to add it to the expression window at the bottom. Click all unique under field values. Click the = operator and the Major value (Figure below). Click Select and Close the Select by Expression window.
 
-![Select by Expression in Attribute Table](figures/Select_by_Expression_in_Attribute_Table.png " Select by Expression in Attribute Table ")
+![Select by Expression in Attribute Table](figures/Select_by_Expression_in_Attribute_Table.png "Select by Expression in Attribute Table")
 
 7.	You now have 4593 out of 37963 records selected. You can use the Toggle at the lower left corner of the attribute table to show just the selected set of records (Figure below). Close the table.
 
-![Toggle Attribute Table View](figures/Toggle_Attribute_Table_View.png " Toggle Attribute Table View ")
+![Toggle Attribute Table View](figures/Toggle_Attribute_Table_View.png "Toggle Attribute Table View")
 
 8.	Right click on the RoadInventory layer and choose Save Selection as… and fill it out as in Figure below.
 
-![Save Selection As](figures/Save_Selection_As.png " Save Selection As ")
+![Save Selection As](figures/Save_Selection_As.png "Save Selection As")
 
 9.	Remove RoadInventory it too was an intermediate dataset. All you need for your map is major roads. 
 
@@ -278,7 +278,7 @@ Now that you have the Albuquerque City limits isolated, you will buffer Albuquer
 
 10.	From the menu bar choose Vector -> Geoprocessing Tools -> Buffer(s). The input will be the jurisdiction layer that now equals the Albuquerque city boundary. Use the default for Segments to approximate. You will enter a Buffer distance in map units. The SPCS has units in feet. Therefore, to buffer the city boundary by a mile, enter the number of feet in a mile (5280). Name the output Albuquerque_buffer.shp. Check Add result to canvas. Click OK and then Close.
 
-![Buffer](figures/Buffer.png " Buffer ")
+![Buffer](figures/Buffer.png "Buffer")
 
 11.	Drag the new buffer layer beneath jurisdiction and you’ll see that it is a one mile buffer of the boundary.
 
@@ -287,7 +287,7 @@ Now that you have the search area for the selected monuments, you will clip the 
 
 12.	From the menu bar choose Vector -> Geoprocessing Tools -> Clip. The input vector layer will be the Bern_spcs. The Clip layer will be the Albuquerque_buffer. Name the output Albuquerque_monuments.shp. Check Add result to canvas and click OK and Close (Figure below).
 
-![Clip](figures/Clip.png " Clip ")
+![Clip](figures/Clip.png "Clip")
 
 13.	Remove Bern_spcs from the Table of Contents.
 
@@ -295,7 +295,7 @@ Finally, you will label the monuments with the FeatureID attribute.
 
 14.	Open the Layer properties for the Albuquerque Monuments and select the Labels tab. Check the Label this layer with box and choose FeatureID as the field. Select the Buffer item and check Draw text buffer with the defaults (Figure below). This will create a white halo around the labels, which can make them easier to read against a busy background. Click the Placement option and give a Distance of 2. This will offset the label from the point a bit giving more room for a bigger point symbol. There are many options for label placement!
 
-![Feature Labels](figures/Feature_Labels.png " Feature Labels ")
+![Feature Labels](figures/Feature_Labels.png "Feature Labels")
 
 15.	Label the roads as well using the StreetName field. Use a font size of 5.25. On the label Rendering tab under Feature options choose Merge connected lines to avoid duplicate labels. This will clean up duplicate labels. 
 
@@ -303,7 +303,7 @@ Finally, you will label the monuments with the FeatureID attribute.
 
 17.	Save your project.
 
-![Final Data](figures/Final_Data.png " Final Data ")
+![Final Data](figures/Final_Data.png "Final Data")
 
 ###	Task 4		Preparing a Map
 
@@ -339,9 +339,9 @@ Now that you have identified where the monuments are that the surveyors should v
 
 	e.	Scale Bar: Use the Add Scale Bar button ![Add Scale Bar button](figures/Add_Scale_Bar_button.png " Add Scale Bar button "). QGIS uses map units for scale bars. Here our map units are feet. Therefore, to make a scalebar read in miles you need to enter a Map units per bar unit value of 5280 (the number of feet in a mile) (Figure below).
 
-![Scale Bar Parameters](figures/Scale_Bar_Parameters.png " Scale Bar Parameters ")
+![Scale Bar Parameters](figures/Scale_Bar_Parameters.png "Scale Bar Parameters")
 
-![Sample Final Map](figures/Sample_Final_Map.png " Sample Final Map ")
+![Sample Final Map](figures/Sample_Final_Map.png "Sample Final Map")
 
 ###	5.	Conclusion
 In this lab, you used several basic spatial analysis techniques to prepare data for analysis and conduct the analysis. You reprojected data, queried and extracted data, conducted a dissolve operation and used buffer and clip to identify the final set of monuments. While none of these individual operations are necessarily complex, the sequence in which they were combined allowed you to answer a spatial questions quickly and easily.
