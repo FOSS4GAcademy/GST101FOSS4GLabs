@@ -111,7 +111,7 @@ refer to figure below).  *All figures should be placed within the 'figures' fold
 in the same directory as the Markdown document.
 
 [1]: http://www.geoforall.org/
-[2]: http://www.cbi.tamucc.edu/Geospatial-Computing/
+[2]: http://www.spatialquerylab.com/
 [3]: http://daringfireball.net/projects/markdown/syntax
 [4]: http://johnmacfarlane.net/pandoc/
 [5]: Attribution_Block_for_Lab_Documents.md
