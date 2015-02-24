@@ -1,0 +1,29 @@
+Readme for Oahu_Landsat_15m.tif and Oahu_Landsat_15m.jp2
+
+This satellite image covers the islands of Oahu.
+It is a composite of multiple images from the Landsat 
+satellite and is substantially cloud-free. It is produced 
+in true color (using bands 3, 2 and 1) and is pan-sharpened 
+using band 8 to produce a spatial resolution of 15 meters. 
+The imagery was then resampled to 12.5 meters. A land/ocean 
+mask was used to fill the ocean with a uniform ocean color.
+
+Source data: Landsat 7 (ETM) satellite imagery
+Imagery dates: 1999-2003
+Image format: GeoTIFF RGB and JPEG2000
+Datum: NAD83
+Projection: UTM Zone 04 North
+Projection Units: Meters
+X resolution: 12.5 Meters
+Y resolution: 12.5 Meters
+
+UL X,Y: 569979.01E, 2405076.66N
+LR X,Y: 645429.01E, 2346264.16N
+
+UL Lat, Long: 21:44:52.44N, 158:19:23.69W
+LR Lat, Long: 21:12:43.53N, 157:35:55.68W
+
+Originator: Earthstar Geographics LLC
+Web: www.terracolor.net
+Email: terracolor@es-geo.com
+
