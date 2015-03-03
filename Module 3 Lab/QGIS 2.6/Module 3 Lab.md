@@ -175,7 +175,7 @@ In this task, we will look at a map of the contiguous United States using a few 
 
 Country View.qgs is an “unprojected” map of the lower 48 states comprised of three themes: United States, LA & NYC, and Circle (centered on -97.50, 39.00).  You can see it does not look quite right given the default projection.  The circle shows some obvious skewing.  
 
-The distance property is more difficult to judge.  The known distance between Los Angeles and New York is approximately 3************,962 kilometers.  Let’s see how the “unprojected” map controls distance distortion.
+The distance property is more difficult to judge.  The known distance between Los Angeles and New York is approximately 3,962 kilometers.  Let’s see how the “unprojected” map controls distance distortion.
 
 2.	As before use the Measure Tool to measure the distance between Los Angeles and New York City in kilometers.
 
