@@ -2,7 +2,7 @@
 ## Lab 3 - Understanding Coordinate Systems and Map Projections
 ### Objective – Explore and Understand Coordinate Systems and Map Projections
 
-Document Version: 2/18/2015
+Document Version: 2/24/2015
 
 **FOSS4G Lab Author:**
 Kurt Menke, GISP
@@ -22,13 +22,13 @@ This document was original modified from its original form by Kurt Menke and con
 
 ### 1. Introduction
 
-In this lab, the student will explore the effects of various map projections on the characteristics of a map using QGIS 2.2.0.  QGIS 2.2.0 is a free and open source geographic information system software package that can be used to visualize, query, and analyze spatial information.
+In this lab, the student will explore the effects of various map projections on the characteristics of a map using QGIS 2.6.0.  QGIS 2.6.0 is a free and open source geographic information system software package that can be used to visualize, query, and analyze spatial information.
 
 This lab will focus primarily on shape and area distortions and will examine projections useful for mapping on the global scale as well as on the national and state level.
 
 This lab includes the following tasks:
 
-+	Task 1 – Setting Map Projections and Coordinate Systems in QGIS Desktop 2.2.0
++	Task 1 – Setting Map Projections and Coordinate Systems in QGIS Desktop 2.6.0
 +	Task 2 – Exploring World Map Projections
 +	Task 3 – Exploring National Map Projections
 +	Task 4 – Exploring State Map Projections
@@ -50,12 +50,12 @@ There are hundreds of possible projections from which to choose.  Some distort l
 +	 Familiarity - Is the appearance of the map recognizable to the map reader or will it detract from the map’s purpose?
 
 
-###	Task 1	Setting Map Projections and Coordinate Systems in QGIS 2.2.0
+###	Task 1	Setting Map Projections and Coordinate Systems in QGIS 2.6.0
 
 In this task, you will explore the effects of various projections on the characteristics of a map.  We will focus primarily on shape and area distortions.  We will examine projections useful for mapping on the global scale.
 
 In Lab 2 you added data to QGIS Desktop. Here you'll open an existing QGIS project.
-2.	Open QGIS Desktop 2.2.0.  
+2.	Open QGIS Desktop 2.6.0.  
 3.	In QGIS Desktop, open the project, World View.qgs by clicking Project->Open.  You should see the map shown in Figure below.
 
 ![World View.qgs Loaded into QGIS Desktop 2.2.0](figures/World_View_qgs_Loaded_into_QGIS_Desktop_2_2_0.png "World View.qgs Loaded into QGIS Desktop 2.2.0")
@@ -85,9 +85,9 @@ Now we’ll do some distance measurements on this map for later comparison to ma
 
 ![Measure Line Tool Selection](figures/Measure_Line_Tool_Selection.png "Measure Line Tool Selection")
 
-8.	Click on the start symbol for Atlanta, in the United States.  
+8.	Click on the point for Atlanta, in the United States.  
 
-9.	Move the cursor to the start symbol for Alice Springs, Australia, then right-click to end the line.  The distance between Atlanta and Alice Springs will be displayed in metric in the Measure box (Figure below).
+9.	Move the cursor to the point for Alice Springs, Australia, then right-click to end the line.  The distance between Atlanta and Alice Springs will be displayed in metric in the Measure box (Figure below).
 
 ![First Measurement](figures/First_Measurement.png "First Measurement")
 
@@ -137,7 +137,7 @@ The Mercator map is much less desirable for mapping continents than other projec
 
 Keep the World View QGIS project open, it will be used in Task 2 as well.
 
-Task 2		Exploring World Map Projections
+### Task 2		Exploring World Map Projections
 
 Let’s examine a map projection more suitable for mapping the entire world: the Eckert IV projection.  The Eckert IV map projection is an equal-area pseudocylindrical map projection with straight, parallel latitude lines and equally spaced meridians.  Shape distortion does increase towards the poles.
 
@@ -175,7 +175,7 @@ In this task, we will look at a map of the contiguous United States using a few 
 
 Country View.qgs is an “unprojected” map of the lower 48 states comprised of three themes: United States, LA & NYC, and Circle (centered on -97.50, 39.00).  You can see it does not look quite right given the default projection.  The circle shows some obvious skewing.  
 
-The distance property is more difficult to judge.  The known distance between Los Angeles and New York is approximately 3,962 kilometers.  Let’s see how the “unprojected” map controls distance distortion.
+The distance property is more difficult to judge.  The known distance between Los Angeles and New York is approximately 3************,962 kilometers.  Let’s see how the “unprojected” map controls distance distortion.
 
 2.	As before use the Measure Tool to measure the distance between Los Angeles and New York City in kilometers.
 
@@ -276,9 +276,10 @@ Not too much changed between Albers and Lambert.  They are both similar map proj
 
 +	Change the Name to Modified_USA_Contiguous_Lambert_Conformal_Conic.  Your Custom CRS Parameters should look like Figure below.
 
-+	Click on Project -> Properties and change the maps projection to the newly created Modified_USA_Contiguous_Lambert_Conformal_Conic
-
 ![Copied Parameters for our Custom Lambert CRS](figures/Copied_Parameters_for_our_Custom_Lambert_CRS.png "Copied Parameters for our Custom Lambert CRS")
+
+
++	Click on Project -> Project Properties and change the maps projection to the newly created Modified_USA_Contiguous_Lambert_Conformal_Conic
 
 There are many ways that we can customize this CRS.  You can customize one of the projection selections so that it is centered on the area in question, in this case the United States, simply by redefining the particular cartographic settings, such as the central meridians, standard parallel(s), reference latitude, or false eastings and northings.  The choice of parameters varies depending on which projection is being used.  
 
@@ -308,7 +309,6 @@ Closely related to the concept of the spheroid is the concept of the datum.  The
 
 +	Coordinate Units (units).  Coordinate Units are used to define distances when setting x and y coordinates.  
 
-	+	Click OK.
 
 Now let’s see the effect of the 0.00 settings for the false easting and northing.  The x-origin is approximately -95.85 and the y-origin is approximately 37.16. 
 
@@ -316,6 +316,8 @@ You may have noticed that GIS layers (aka. “themes”) in the Table of Content
 
 +	In the table of contents, turn off the Circle layer by clicking the X, to see southeastern Kansas, the location where the x and y origins intersect.
 +	Turn on the Intersection Point layer by clicking the empty box to the left of the name and turning on the X, to see where the x and y origins intersect.
+
+###### (If your Intersection point is beneath the US, Double click on the "Intersection Point" title in the table of contents. You should arrive at the "General" tab under the Layer properties window, there look under "coordinate reference system" and if it isnt already set to "ModifiedUSAContiguous_LambertConformalConic" switch it.You can do this by clicking on the specify button on the side and selecting the desired CRS. 
 
 In Figure below, a white circle with a centered, black dot illustrates the intersection of the x and y origins.  At this intersection in the view, the x and y coordinates are 0.00, 0.00.  As you move to the northeast, both the x and y coordinates are positive.  You can view the coordinates of your mouse cursor in the bottom-right corner of QGIS.  Figure above shows an example.
 
@@ -348,7 +350,7 @@ Note that the projection selected is WGS 84.  This is selected because the Vermo
 
 To make the map of Vermont in SPCS, we have two options:
 
-+	Enable on the CRS transformation, and select NAD27 /Vermont coordinate system.
++	Enable 'on the fly' CRS transformation, and select NAD27 /Vermont coordinate system, EPSG: 32045.
 
 +	Project the Vermont shapefile in to NAD27 / Vermont and set the Project’s coordinate system to match.
 
@@ -364,7 +366,7 @@ So, let us project the Vermont shapefile in to the NAD27 / Vermont coordinate sy
 	
 	a.	Format: ESRI Shapefile
 	
-	b.	Save as: <<lab data directory>>/Vermont_SPCS.shp
+	b.	Click Browse -> Find your Lab 3 "Data" Folder, then double click it -> and save within that file under the name -> Vermont_SPCS.shp
 
 	c.	CRS: NAD27 / Vermont (EPSG:32045)  (click Browse button to select CRS)
 
@@ -419,7 +421,7 @@ The Universal Transverse Mercator (UTM) grid (shown in Figure 25) is a plane coo
 1.	There are separate versions of both the Country View and World View maps with a UTM Zone polygon theme. In each QGIS map document the UTM theme is labeled with the UTM zones so you can see what zones cover your part of the country. 
 2.	These QGIS map documents are called World View UTM.qgs.and Country View UTM.qgs
 3.	Using what you have learned in this lab, experiment with the putting these UTM World and Country View maps into the UTM system.
-4.	Open up one of these projects. (for example: Open QGIS 2.2 -> Project -> Open -> Country View UTM.qgs)
+4.	Open up one of these projects. (for example: Open QGIS 2.6 -> Project -> Open -> Country View UTM.qgs)
 5.	Once the map opens, from the Project menu choose Project Properties and open the CRS tab. 
 6.	Via the Filter search for UTM. Choose a UTM zone in your part of the country to put the map into. There are UTM definitions with different datums. Choose one from the NAD83 UTM zone projection series. 
 
