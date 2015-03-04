@@ -289,7 +289,7 @@ Not too much changed between Albers and Lambert.  They are both similar map proj
 
 There are many ways that we can customize this CRS.  You can customize one of the projection selections so that it is centered on the area in question, in this case the United States, simply by redefining the particular cartographic settings, such as the central meridians, standard parallel(s), reference latitude, or false eastings and northings.  The choice of parameters varies depending on which projection is being used.  
 
-Let’s briefly define these terms and where they can be modified in the NRS Parameters.  Each term will be followed by the parameter in the CRS Parameters inside of parenthesis. 
+Let’s briefly define these terms and where they can be modified in the CRS Parameters.  Each term will be followed by the parameter in the CRS Parameters inside of parenthesis. 
 
 NOTE: Proj.4 is another FOSS4G project used by QGIS, like OGR and GDAL. This project is for managing coordinate systems and projections. For a detailed user manual for the Proj.4 format used to specify the CRS Parameters in QGIS, visit
 
