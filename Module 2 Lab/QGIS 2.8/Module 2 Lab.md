@@ -54,12 +54,12 @@ Open QGIS Browser. The way you open QGIS Browser and QGIS Desktop will vary depe
 
 The interface to QGIS Browser is simple and clean (shown in the figure below). The File Tree is displayed on the left which shows your computer's files and folders. (NOTE: your machine may have a different set and number of drives listed here. This is fine.) Below the drives are Database Connections. There are no connections to any databases at this point. The Display Window takes up the remainder of the window. There are Display Tabs above the Display Window that allow you to control the information you see.
 
-![QGIS Browser ](figures/QGIS_Browser.png " QGIS Browser ")
+![QGIS Browser](figures/QGIS_Browser.png "QGIS Browser")
 
 2.	Look at the File Tree. Click the arrow to the left of the C: drive. You will now see all of the subfolders directly under the C:/ folder.
 3.	Expand the lab folder where you stored your data in the File Tree by clicking the arrows to the left of each folder. You will now see the contents of the Data folder for the lab (shown in figure below).
 
-![Lab Data in QGIS Browser ](figures/Lab_Data_in_QGIS_Browser.png " Lab Data in QGIS Browser ")
+![Lab Data in QGIS Browser](figures/Lab_Data_in_QGIS_Browser.png "Lab Data in QGIS Browser")
 
 4.	Take a moment to read the names of the files. There are two folders and several files listed with different icons. The ![Vector Icon ](figures/Vector_Icon.png "Vector Icon") icon indicates that the dataset is a vector layer. This icon ![Raster Icon ](figures/Raster_Icon.png "Raster Icon") is used to represent raster data but is also used for other files such as the XML files you see here.
 
