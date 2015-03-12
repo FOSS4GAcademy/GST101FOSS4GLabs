@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://www.fgdc.gov/metadata/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</origin>
+            <pubdate>20110606</pubdate>
+            <title>Bernalillo County 2010 Census Tracts</title>
+            <edition>2010</edition>
+            <geoform>vector digital data</geoform>
+            <onlink>http://www.census.gov/geo/www/tiger</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/services/ogc/wms?SERVICE=wms&amp;REQUEST=GetCapabilities&amp;VERSION=1.1.1</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/services/ogc/wfs?SERVICE=wfs&amp;REQUEST=GetCapabilities&amp;VERSION=1.0.0</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.derived.shp</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.original.zip</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.derived.gml</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.derived.kml</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.derived.geojson</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.derived.json</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.derived.csv</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.derived.xls</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/metadata/FGDC-STD-001-1998.xml</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/metadata/FGDC-STD-001-1998.html</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/metadata/ISO-19115:2003.xml</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/metadata/ISO-19115:2003.html</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/metadata/ISO-19119:WMS.xml</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/metadata/ISO-19119:WFS.xml</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/metadata/ISO-19110.xml</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB).  The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation.  Census tracts are small, relatively permanent statistical subdivisions of a county or equivalent entity, and were defined by local participants as part of the 2010 Census Participant Statistical Areas Program.  The Census Bureau delineated the census tracts in situations where no local participant existed or where all the potential participants declined to participate.  The primary purpose of census tracts is to provide a stable set of geographic units for the presentation of census data and comparison back to previous decennial censuses.  Census tracts generally have a population size between 1,200 and 8,000 people, with an optimum size of 4,000 people.  When first delineated, census tracts were designed to be homogeneous with respect to population characteristics, economic status, and living conditions.  The spatial size of census tracts varies widely depending on the density of settlement.  Physical changes in street patterns caused by highway construction, new development, and so forth, may require boundary revisions.  In addition, census tracts occasionally are split due to population growth, or combined as a result of substantial population decline.  Census tract boundaries generally follow visible and identifiable features.  They may follow legal boundaries such as minor civil division (MCD) or incorporated place boundaries in some States and situations to allow for census tract-to-governmental unit relationships where the governmental boundaries tend to remain unchanged between censuses.  State and county boundaries always are census tract boundaries in the standard census geographic hierarchy.  In a few rare instances, a census tract may consist of noncontiguous areas.  These noncontiguous areas may occur where the census tracts are coextensive with all or parts of legal entities that are themselves noncontiguous.  For the 2010 Census, the census tract code range of 9400 through 9499 was enforced for census tracts that include a majority American Indian population according to Census 2000 data and/or their area was primarily covered by federally recognized American Indian reservations and/or off-reservation trust lands; the code range 9800 through 9899 was enforced for those census tracts that contained little or no population and represented a relatively large special land use area such as a National Park, military installation, or a business/industrial park; and the code range 9900 through 9998 was enforced for those census tracts that contained only water area, no land area.  
+</abstract>
+         <purpose>In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line Shapefiles.</purpose>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <rngdates>
+               <begdate>201001</begdate>
+               <enddate>201007</enddate>
+            </rngdates>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database.  No changes or updates will be made to this version of the TIGER/Line Shapefiles.  Future releases of TIGER/Line Shapefiles will reflect updates made to the Census MAF/TIGER database.</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-107.19617</westbc>
+            <eastbc>-106.149575</eastbc>
+            <northbc>35.219639</northbc>
+            <southbc>34.869024</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>ISO 19115 Topic Categories</themekt>
+            <themekey>boundaries</themekey>
+         </theme>
+         <theme>
+            <themekt>None</themekt>
+            <themekey>County or equivalent entity</themekey>
+            <themekey>Polygon</themekey>
+            <themekey>Census Tract</themekey>
+            <themekey>Tract</themekey>
+         </theme>
+         <place>
+            <placekt>Spatial Reference System Identifiers</placekt>
+            <placekey>EPSG:4269</placekey>
+            <placekey>EPSG:7019</placekey>
+         </place>
+         <place>
+            <placekt>INCITS.38-200x (R2004),INCITS.31-200x (R2007),INCITS.454-200x,INCITS 455-200x,INCITS 446-2008</placekt>
+            <placekey>United States</placekey>
+            <placekey>U.S.</placekey>
+            <placekey>County or Equivalent Entity</placekey>
+            <placekey>Bernalillo</placekey>
+            <placekey>35001</placekey>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau.  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.
+The boundary information in the TIGER/Line Shapefiles are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Earth Data Analysis Center</cntorg>
+            </cntorgp>
+            <cntpos>RGIS Clearinghouse Manager</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>MSC01 1110</address>
+               <address>1 University of New Mexico</address>
+               <city>Albuquerque</city>
+               <state>NM</state>
+               <postal>87131-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>(505) 277-3622</cntvoice>
+            <cntfax>(505) 277-3614</cntfax>
+            <cntemail>clearinghouse@edac.unm.edu</cntemail>
+            <hours>8:00-5:00 Mountain Time Zone</hours>
+         </cntinfo>
+      </ptcontac>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>Accurate against Federal Information Processing Standards (FIPS), FIPS Publication 6-4, and FIPS-55 at the 100% level for the codes and base names.  The remaining attribute information has been examined but has not been fully tested for accuracy.</attraccr>
+      </attracc>
+      <logic>The Census Bureau performed automated tests to ensure logical consistency and limits of shapefiles.  Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area.  All polygons are tested for closure.
+The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database.  Standard geographic codes, such as FIPS codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities.  The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files.  Most of the codes for geographic entities except states, counties, urban areas, Core Based Statistical Areas (CBSAs), American Indian Areas (AIAs), and congressional districts were provided to the Census Bureau by the USGS, the agency responsible for maintaining FIPS 55.  Feature attribute information has been examined but has not been fully tested for consistency.
+For the TIGER/Line Shapefiles, the Point and Vector Object Count for the G-polygon SDTS Point and Vector Object Type reflects the number of records in the shapefile attribute table.  For multi-polygon features, only one attribute record exists for each multi-polygon rather than one attribute record per individual G-polygon component of the multi-polygon feature.  TIGER/Line Shapefile multi-polygons are an exception to the G-polygon object type classification.  Therefore, when multi-polygons exist in a shapefile, the object count will be less than the actual number of G-polygons.</logic>
+      <complete>Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at the time the TIGER/Line Shapefiles were created.</complete>
+      <lineage>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</origin>
+                  <pubdate>Unpublished material</pubdate>
+                  <title>Census MAF/TIGER database</title>
+               </citeinfo>
+            </srccite>
+            <typesrc>online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <rngdates>
+                     <begdate>201001</begdate>
+                     <enddate>201007</enddate>
+                  </rngdates>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>MAF/TIGER</srccitea>
+            <srccontr>The selected geographic and cartographic information (line segments) are derived from the U.S. Census Bureau's Master Address File Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database.</srccontr>
+         </srcinfo>
+         <procstep>
+            <procdesc>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity.  Census MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing attributes for line, polygon, or landmark geographic data. </procdesc>
+            <srcused>MAF/TIGER</srcused>
+            <procdate>2010</procdate>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <indspref>Cibola County (35006)</indspref>
+      <direct>Vector</direct>
+      <ptvctinf>
+         <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>153</ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>TRACT10.shp</enttypl>
+            <enttypd>2010 Census Census Tract County-based</enttypd>
+            <enttypds>U.S. Census Bureau</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>STATEFP10</attrlabl>
+            <attrdef>2010 Census state Federal Information Processing Standards
+                 (FIPS) codes</attrdef>
+            <attrdefs>U.S. Census Bureau</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>INCITS.38-200x (R2004), Codes for the Identification of
+                      the States, the District of Columbia, Puerto Rico, and the
+                      Insular Areas of the United States (Formerly FIPS 5-2)</codesetn>
+                  <codesets>U.S. Census Bureau</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>COUNTYFP10</attrlabl>
+            <attrdef>2010 Census county Federal Information Processing Standards
+                 (FIPS) code</attrdef>
+            <attrdefs>U.S. Census Bureau</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>INCITS.31-200x (R2007), Codes for the Identification of
+                      the Counties and Equivalent Areas of the United States,
+                      Puerto Rico, and the Insular Areas of the United States
+                      (Formerly FIPS 6-4)</codesetn>
+                  <codesets>U.S. Census Bureau</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>TRACTCE10</attrlabl>
+            <attrdef>2010 Census census tract code</attrdef>
+            <attrdefs>U.S. Census Bureau</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>000000</edomv>
+                  <edomvd>Water tract in some coastal and Great Lakes water and
+                    territorial sea</edomvd>
+                  <edomvds>U.S. Census</edomvds>
+               </edom>
+               <edom>
+                  <edomv>000100 to 998999</edomv>
+                  <edomvd>Census tract number</edomvd>
+                  <edomvds>U.S. Census Bureau</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>GEOID10</attrlabl>
+            <attrdef>Census tract identifier; a concatenation of 2010 Census state
+                 FIPS code, county FIPS code, and census tract code</attrdef>
+            <attrdefs>U.S. Census Bureau</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>INCITS.38-200x (R2004), Codes for the Identification of
+                      the States, the District of Columbia, Puerto Rico, and the
+                      Insular Areas of the United States (Formerly FIPS 5-2),
+                      INCITS.31-200x (R2007), Codes for the Identification of
+                      the Counties and Equivalent Areas of the United States,
+                      Puerto Rico, and the Insular Areas of the United States
+                      (Formerly FIPS 6-4), and the census tract code found in
+                      TRACTCE10</codesetn>
+                  <codesets>U.S. Census Bureau</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>NAME10</attrlabl>
+            <attrdef>2010 Census census tract name, this is the census tract code
+                 converted to an integer or integer plus two-digit decimal if
+                 the last two characters of the code are not both zeros.</attrdef>
+            <attrdefs>U.S. Census Bureau</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>Refer to the online census tract gazetteer file at URL:
+                      http://www.census.gov/geo/www/gazetteer/gazette.html</codesetn>
+                  <codesets>U.S. Census Bureau</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>NAMELSAD10</attrlabl>
+            <attrdef>Census 2010 translated legal/statistical area description and
+                 the census tract name</attrdef>
+            <attrdefs>U.S. Census Bureau</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>Refer to the online census tract gazetteer file at URL:
+                      http://www.census.gov/geo/www/gazetteer/gazette.html and
+                      translated legal/statistical area description code CT,
+                      Census Tract</codesetn>
+                  <codesets>U.S. Census Bureau</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>MTFCC10</attrlabl>
+            <attrdef>MAF/TIGER feature class code</attrdef>
+            <attrdefs>U.S. Census Bureau</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>G5020</edomv>
+                  <edomvd>Census Tract</edomvd>
+                  <edomvds>U.S. Census Bureau</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FUNCSTAT10</attrlabl>
+            <attrdef>2010 Census functional status</attrdef>
+            <attrdefs>U.S. Census Bureau</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>S</edomv>
+                  <edomvd>Statistical entity</edomvd>
+                  <edomvds>U.S. Census Bureau</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ALAND10</attrlabl>
+            <attrdef>2010 Census land area (square meters)</attrdef>
+            <attrdefs>U.S. Census Bureau</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>0 to 9,999,999,999,999</edomv>
+                  <edomvd>Blank</edomvd>
+                  <edomvds>U.S. Census Bureau</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AWATER10</attrlabl>
+            <attrdef>2010 Census water area (square meters)</attrdef>
+            <attrdefs>U.S. Census Bureau</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>0 to 9,999,999,999,999</edomv>
+                  <edomvd>Blank</edomvd>
+                  <edomvds>U.S. Census Bureau</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>INTPTLAT10</attrlabl>
+            <attrdef>2010 Census latitude of the internal point</attrdef>
+            <attrdefs>U.S. Census Bureau</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>00</edomv>
+                  <edomvd>Blank</edomvd>
+                  <edomvds>U.S. Census Bureau</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>INTPTLON10</attrlabl>
+            <attrdef>2010 Census longitude of the internal point</attrdef>
+            <attrdefs>U.S. Census Bureau</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>00</edomv>
+                  <edomvd>Blank</edomvd>
+                  <edomvds>U.S. Census Bureau</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Earth Data Analysis Center</cntorg>
+            </cntorgp>
+            <cntpos>Clearinghouse Manager</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>MSC01 1110</address>
+               <address>1 University of New Mexico</address>
+               <city>Albuquerque</city>
+               <state>NM</state>
+               <postal>87131-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>505-277-3622 ext. 230</cntvoice>
+            <cntfax>505-277-3614</cntfax>
+            <cntemail>clearinghouse@edac.unm.edu</cntemail>
+            <hours>0800 - 1700 MT, M-F -7 hours GMT</hours>
+         </cntinfo>
+      </distrib>
+      <resdesc>Downloadable Data</resdesc>
+      <distliab>The material on this site is made available as a public service. Maps and data are to be used for reference purposes only and the Earth Data Analysis Center (EDAC), Resource Geographic Information System (RGIS) and The University of New Mexico are not responsible for any inaccuracies herein contained. No responsibility is assumed for damages or other liabilities due to the accuracy, availability, use or misuse of the information herein provided. Unless otherwise indicated in the documentation (metadata) for individual data sets, information on this site is public domain and may be copied without permission; citation of the source is appreciated.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ZIP</formname>
+               <transize>1</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.original.zip</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ESRI Shapefile (shp)</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.derived.shp</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>GML</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.derived.gml</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>KML</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.derived.kml</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>GeoJSON</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.derived.geojson</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>JSON</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.derived.json</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Comma Separated Values (csv)</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.derived.csv</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>MS Excel format (xls)</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/be59f00d-fb91-423f-9d8b-a46cd1b07f26/tl_2010_35001_tract10.derived.xls</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <custom>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</custom>
+      <techpreq>Adequate computer capability is the only technical prerequisite for viewing data in digital form.</techpreq>
+   </distinfo>
+   <metainfo>
+      <metd>20140418</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Earth Data Analysis Center</cntorg>
+            </cntorgp>
+            <cntpos>Clearinghouse Manager</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>MSC01 1110</address>
+               <address>1 University of New Mexico</address>
+               <city>Albuquerque</city>
+               <state>NM</state>
+               <postal>87131-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>505-277-3622 ext. 230</cntvoice>
+            <cntfax>505-277-3614</cntfax>
+            <cntemail>clearinghouse@edac.unm.edu</cntemail>
+            <hours>0800 - 1700 MT, M-F -7 hours GMT</hours>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+   </metainfo>
+</metadata>
