@@ -2,7 +2,7 @@
 ## Lab 5 - Creating Geospatial Data
 ### Objective – Digitize Information from a Scanned Hardcopy Source
 
-Document Version: 3/9/2015
+Document Version: 3/13/2015
 
 **FOSS4G Lab Author:**
 Kurt Menke, GISP
@@ -22,7 +22,7 @@ This document was original modified from its original form by Kurt Menke and con
 
 ### 1. Introduction
 
-In this lab, students will learn how to georeference a scanned map. Georeferencing is the process transforming the coordinate system of the scanned map, from the coordinate system produced by the scanning process, into a real world projected coordinate reference system. The student will then learn how to digitize information contained in the scanned map into a shapefile. The first task will be to create the empty shapefile to digitize features into. The student will also learn how to edit existing vector datasets.
+In this lab, students will learn how to georeference a scanned map. Georeferencing is the process of transforming the coordinate system of the scanned map, from the coordinate system produced by the scanning process, into a real world projected coordinate reference system. The student will then learn how to digitize information contained in the scanned map into a shapefile. The first task will be to create the empty shapefile to digitize features into. The student will also learn how to edit existing vector datasets.
 
 This lab will continue to introduce students to the QGIS interface. It is important to learn the concepts in this lab as future courses will require the skills covered in this lab. 
 
@@ -36,9 +36,9 @@ This lab includes the following tasks:
 
 + Task 4 – Editing existing geospatial data.
 
-###	2. Objective: Digitize Information from a Scanned Hard Copy Source
+### 2. Objective: Digitize Information from a Scanned Hard Copy Source
 
-While there is a large amount of digital information readily available to users of GIS, there’s still a large amount of information that has not been converted to digital format. For hundreds of years, hard copy paper maps contained all geospatial data. Many historic, and even newer, hard copy maps have never been digitized. It is possible to extract the information from hardcopy sources through process called digitizing. In this lab, you will use heads-up digitizing to digitize parcels in a portion of Albuquerque, New Mexico from a scanned map. This will be accomplished through a five-step digitizing process:
+While there is a large amount of digital information readily available to users of GIS, there’s still a large amount of information that has not been converted to digital format. For hundreds of years of hard copy paper maps contained all geospatial data. Many historic, and even newer, hard copy maps have never been digitized. It is possible to extract the information from hardcopy sources through process called digitizing. In this lab, you will use heads-up digitizing to digitize parcels in a portion of Albuquerque, New Mexico from a scanned map. This will be accomplished through a five-step digitizing process:
 
 1. Create a shapefile to store the data that will be digitized.
 
@@ -50,12 +50,6 @@ While there is a large amount of digital information readily available to users 
 
 5. Save
 
-### 3. How Best to Use Video Walk Through with this Lab
-
-To aid in your completion of this lab, each lab task has an associated video that demonstrates how to complete the task.  The intent of these videos is to help you move forward if you become stuck on a step in a task, or you wish to visually see every step required to complete the tasks.
-
-We recommend that you do not watch the videos before you attempt the tasks.  The reasoning for this is that while you are learning the software and searching for buttons, menus, etc…, you will better remember where these items are and, perhaps, discover other features along the way.  With that being said, please use the videos in the way that will best facilitate your learning and successful completion of this lab.
-
 ### Task 1 - Create a New Shapefile
 
 In Task 3, you will be digitizing parcels from a georeferenced data source. In this first task you will learn how to create the new shapefile you will eventually digitize into.
@@ -66,20 +60,21 @@ In Task 3, you will be digitizing parcels from a georeferenced data source. In t
 
 3. Click on the New Shapefile button at the top of the Browser window. This will open the New Vector Layer window.
 
-![QGIS Browser New Shapefile button](figures/QGIS_Browser_New_Shapefile_button.png "QGIS Browser New Shapefile button")
+![QGIS Browser New Shapefile Button](figures/QGIS_Browser_New_Shapefile_button.png "QGIS Browser New Shapefile Button")
 
 4. Choose a type of ‘Polygon’
 
-5. Click the Specify CRS button to open the Coordinate Reference System Selector.
+5. Click the Select CRS button to open the Coordinate Reference System Selector.
 
-The City of Albuquerque, like most municipalities, uses the State Plane Reference System (SPRC) for their data. You’ll use the same CRS for your new shapefile.
+The City of Albuquerque, like most municipalities, uses the State Plane Reference System (SPRC) for their data. You will use the same CRS for your new shapefile.
 
-5. In the Coordinate Reference System Selector type New Mexico into the Filter. This will limit the list below to just those with New Mexico in their name. These are different SPRC CRS’s for New Mexico. New Mexico has 3 zones and Albuquerque is in the Central zone.
-6. Select the NAD83(HARN) / New Mexico Central (ftUS) with an EPSG code of 2903 (see figure below). Click OK once you’ve selected this CRS to be returned to the New Vector Layer window.
+5. In the Coordinate Reference System Selector interface type New Mexico into the Filter. This will limit the list below to just those with New Mexico in their name. These are different SPRC CRSs for New Mexico. New Mexico has 3 zones and Albuquerque is in the Central zone.
 
-![Browsing for the correct CRS](figures/Browsing_for_the_correct_CRS.png "Browsing for the correct CRS")
+6. Select the NAD83(HARN) / New Mexico Central (ftUS) with an EPSG code of 2903 (see figure below). Click OK once you have selected this CRS to be returned to the New Vector Layer window.
 
-While creating your new shapefile you have the option of adding attribute columns. It is possible to add them later, but if you know of some attribute columns you’ll need in the layer, it makes the most sense to define them here.  The ID attribute is automatically added to every shapefile you create. 
+![Browsing For The Correct CRS](figures/Browsing_for_the_correct_CRS.png "Browsing For The Correct CRS")
+
+While creating your new shapefile you have the option of adding attribute columns. It is possible to add them later, but if you know of some attribute columns you will need in the layer, it makes the most sense to define them here.  The ID attribute is automatically added to every shapefile you create.
 
 For this lab, you will need an attribute column to hold the zoning code.
 
@@ -87,7 +82,7 @@ For this lab, you will need an attribute column to hold the zoning code.
 
 This means the new zonecode attribute column will store data as text and will only be able to accommodate five characters of data. Since our longest zoning code is 4 digits this is more than enough.
 
-8. Click Add to attribute list and you’ll see the new zonecode attribute added.
+8. Click Add to attribute list and you will see the new zonecode attribute added.
 
 9. Click OK to approve the new shapefile options and open the Save layer as window. Since you had the New Data folder selected when you clicked the New Shapefile button it will default to that folder. If it doesn’t just navigate to that folder now. 
 10. Name the shapefile parcels.shp and click Save to create the shapefile
@@ -98,7 +93,7 @@ Initially, the new shapefile may not display in the Browser. We need to first re
 
 11. Select the parcels.shp dataset and click the Metadata tab. You’ll see that it has 0 features and has the Spatial Reference System you specified. The New Mexico Central State Plane zone uses the Mercator projection since it is a north – south oriented zone.
 
-![QGIS Browser with the new parcel shapefile metadata](figures/QGIS_Browser_with_the_new_parcel_shapefile_metadata.png "QGIS Browser with the new parcel shapefile metadata")
+![QGIS Browser With The New Parcel Shapefile Metadata](figures/QGIS_Browser_with_the_new_parcel_shapefile_metadata.png "QGIS Browser With The New Parcel Shapefile Metadata")
 
 ### Task 2 - Transforming Coordinate System of Source Data
 
@@ -123,7 +118,7 @@ To perform this task you will be using a Plugin. Plugins are small add-ons to QG
 
 8. From the menu bar choose Plugins | Manage and Install Plugins
 
-9. The Plugins manager will open. Options along the left side allow you to switch between Installed, Not Installed, New, and Settings. The plugin you’ll use is a Core QGIS Plugin called Georeferencer GDAL. 
+9. The Plugins manager will open. Options along the left side allow you to switch between Installed, Not Installed, New, and Settings. The plugin you will use is a Core QGIS Plugin called Georeferencer GDAL. 
 
 10. Since it is a Core plugin it will already be installed. You just need to enable it. Click on Installed plugins and check the box next to Georeferencer GDAL (shown in figure below).
 
@@ -134,11 +129,11 @@ To perform this task you will be using a Plugin. Plugins are small add-ons to QG
 
 12. The Georeferencer window opens. Click the Open Raster button at the upper left hand side (see figure below).
 
-![Open Raster button](figures/Open_Raster_button.png "Open Raster button")
+![Open Raster Button](figures/Open_Raster_button.png "Open Raster Button")
 
 13. Navigate to the Lab 5/Data folder and select the zone_map.bmp and click Open. *Note:* If the Coordinate Reference System Selector window opens click Cancel to close. This dataset does not yet have an Earth-based coordinate system. The source data will now be loaded in the Georeferencer (shown in figure below)
 
-![Georeferencer with source data loaded](figures/Georeferencer_with_source_data_loaded.png "Georeferencer with source data loaded")
+![Georeferencer With Source Data Loaded](figures/Georeferencer_with_source_data_loaded.png "Georeferencer With Source Data Loaded")
 
 The source data is a map. On the map, there are 5 points with their associated names (for example, one point's name is: I25 27). These are benchmarks maintained by the National Geodetic Survey. To georeference this scanned map, you will create control points at these five locations. The plugin will then develop a georeferencing equation based off the set of source and target coordinates at these five locations. QGIS will obtain the source coordinates from your mouse click on those points. You will look up the target coordinates for these benchmarks from the NGS website. 
 
@@ -179,7 +174,7 @@ This is an NGS Data Sheet.  It gives measurement parameters for NGS benchmarks l
 
 It is important to be precise and click directly on the point. To help make your selection more precise, you can zoom and pan by using tools in the View toolbar (shown in figure below). If you want to redo a control point click the Delete point button ![Delete point button](figures/Delete_point_button.png "Delete point button") then click on the point to delete.) 
 
-![Georeferencer View toolbar](figures/Georeferencer_View_Toolbar.png "Georeferencer View toolbar")
+![Georeferencer View Toolbar](figures/Georeferencer_View_Toolbar.png "Georeferencer View Toolbar")
 
 21. With the Add point button selected, click on point I25 27.
 
@@ -191,7 +186,7 @@ It is important to be precise and click directly on the point. To help make your
 
 23. Repeat this procedure for points ‘I25 28’, I25 29’, K 15 S’ and ‘STADIUM’. After the 5 control points have been entered your Georeferencer window should look like the figure below.
 
-![All control points entered](figures/All_control_points_entered.png "All control points entered")
+![All Control Points Entered](figures/All_control_points_entered.png "All Control Points Entered")
 
 23. To perform the transformation click the Start georeferencing button ![Start georeferencing button](figures/Start_georeferencing_button.png "Start georeferencing button").
 
@@ -209,7 +204,7 @@ It is important to be precise and click directly on the point. To help make your
 	
 	4. Click the browse button to the right of Target SRS. Type 2903 into the Filter.
 
-	6. Click the NAD83(HARN)/N… EPSG:2903 CRS then click OK.
+	6. Click the NAD83(HARN)/New Mexico Central (ftUS):2903 CRS then click OK.
 
 	5. Check Load in QGIS when done.
 	
@@ -223,7 +218,7 @@ It is important to be precise and click directly on the point. To help make your
 
 27. Using the Add vector data button add the netcurr.shp shapefile in the Lab 5/Data folder to QGIS. This is a shapefile representing city streets produced by the City of Albuquerque. If the transformation was done correctly, the streets will line up with the georeferenced parcel map image (shown in figure below). Save your map file.
 
-![Georeferenced parcel map image ](figures/Georeferenced_parcel_map_image.png "Georeferenced parcel map image")
+![Georeferenced Parcel Map Image](figures/Georeferenced_parcel_map_image.png "Georeferenced Parcel Map Image")
 
 ### Task 3 - Heads-up Digitizing From Transformed Source Data
 
@@ -233,25 +228,25 @@ Now you will digitize the parcels off the georeferenced image into the parcels s
 
 2. Turn off the netcurr layer's visibility.
 
-2. Using the Zoom in tool, drag a box around the M-1 parcels in the northwest corner of the image. You’ll digitize these first.
+2. Using the Zoom in tool, drag a box around the M-1 parcels in the northwest corner of the image. You will digitize these first.
 
-There is an Editing toolbar for editing vector datasets (see figure below). If you don’t see that go to the menu bar to View | Toolbars and turn it on. The tools available change slightly depending on the geometry of the data you are editing (polygon, line, point).When editing a polygon layer you will have a tool for adding polygon features.
+There is an Editing toolbar for editing vector datasets (see figure below). If you do not see that go to the menu bar to View | Toolbars and turn it on. The tools available change slightly depending on the geometry of the data you are editing (polygon, line, point).When editing a polygon layer you will have a tool for adding polygon features.
 
-![Editing toolbar ](figures/Editing_toolbar.png "Editing toolbar")
+![Editing Toolbar](figures/Editing_toolbar.png "Editing Toolbar")
 
 3. Click on the Add Feature tool ![Add Feature tool](figures/Add_Feature_tool.png "Add Feature tool"). Your cursor will change to an editing cursor that looks like a set of cross hairs.
 
-Polygons are constructed of a series of nodes which define their shape. Here you’ll trace the outline of the first parcel clicking to create each node on the polygons boundary. 
+Polygons are constructed of a series of nodes which define their shape. Here you will trace the outline of the first parcel clicking to create each node on the polygons boundary.
 
-4. Put your cursor over a corner of one of the polygons. Left click to add the first point, left click again to add the second, and continue to click around the perimeter of the parcel. After you have added the final node finish the polygon with a right click. 
+4. Put your cursor over a corner of one of the polygons. Left click to add the first point, left click again to add the second, and continue to click around the perimeter of the parcel. After you have added the final node finish the polygon with a right click.
 
 5. An Attributes window will open asking you to populate the two attributes for this layer: id and zonecode. Give the parcel an id of 0 and the zonecode is M-1 (shown in figure below). Each parcel feature will receive a unique id starting here with zero. The next parcel you digitize will be id 1, the one after that id 2 etc. 
 
-![Attributes window ](figures/Attributes_window.png "Attributes window")
+![Attributes Window](figures/Attributes_window.png "Attributes Window")
 
 6. Click OK to close the Attributes window and complete the polygon.
 
-If you want to delete the polygon you’ve just added, click the Current Edits tool dropdown menu ![Current Edits tool dropdown menu ](figures/Current_Edits_tool_dropdown_menu.png "Current Edits tool dropdown menu") and choose Roll Back Edits to undo your polygon.
+If you want to delete the polygon you have just added, click the Current Edits tool dropdown menu ![Current Edits tool dropdown menu ](figures/Current_Edits_tool_dropdown_menu.png "Current Edits tool dropdown menu") and choose Roll Back Edits to undo your polygon.
 
 6. Adding single isolated polygons is pretty straightforward. Zoom back to the extent of the image. You can do this by clicking the Zoom last button ![Zoom last button](figures/Zoom_last_button.png "Zoom last button").
 
@@ -261,53 +256,53 @@ If you want to delete the polygon you’ve just added, click the Current Edits t
 
 9. Digitize the outer boundary of the SU-1 parcel ignoring the O-1 parcel for the moment. Fill in the attributes when prompted (id=0, zonecode=SU-1). The SU-1 polygon will be a ring when completed but for now it covers the O-1 parcel. 
 
-10. To finish SU-1 you will use a tool on the Advanced Editing toolbar. To turn that on go to the menu bar and choose View | Toolbars | check Advanced Editing. Dock the Advanced Editing toolbar where you’d like (toolbar shown in figure below). (All toolbars in the QGIS interface can be moved by grabbing the stippled left side and dragging them to different parts of the interface.)
+10. To finish SU-1 you will use a tool on the Advanced Editing toolbar. To turn that on go to the menu bar and choose View | Toolbars | check Advanced Editing. Dock the Advanced Editing toolbar where you would like (toolbar shown in figure below). (All toolbars in the QGIS interface can be moved by grabbing the stippled left side and dragging them to different parts of the interface.)
 
-![Advanced Editing toolbar](figures/Advanced_Editing_Toolbar.png "Advanced Editing toolbar")
+![Advanced Editing Toolbar](figures/Advanced_Editing_Toolbar.png "Advanced Editing Toolbar")
 
 11. Now you’ll use the Add Ring tool ![Add Ring tool](figures/Add_Ring_tool.png "Add Ring tool"). Select it and click around the perimeter of the O-1 parcel. Right click to finish. This creates a ring polygon (shown in figure below).
 
 ![SU-1 Ring Polygon ](figures/SU-1_Ring_Polygon.png "SU-1 Ring Polygon")
 
-14. To Digitize O-1 you'll use a tool that is part of the Digitizing Tools Plugin. First open the Plugin Manager and search for 'Digitizing Tools' in the All category. Select the Plugin and click the Install Plugin button. You should get the message Plugin Installed Successfully. Once it has been installed switch to the Installed plugins and make sure the Digitizing Tools toolbar is visible. Dock the toolbar.
+14. To Digitize O-1 you will use a tool that is part of the Digitizing Tools Plugin. First open the Plugin Manager and search for 'Digitizing Tools' in the All category. Select the Plugin and click the Install Plugin button. You should get the message Plugin Installed Successfully. Once it has been installed switch to the Installed plugins and make sure the Digitizing Tools toolbar is visible. Dock the toolbar.
 
-![Digitizing Tools plugin](figures/Digitizing_Tools_plugin.png "Digitizing Tools plugin")
+![Digitizing Tools Plugin](figures/Digitizing_Tools_plugin.png "Digitizing Tools Plugin")
 
 15. On the Attributes tool, click the Select Features... tool ![Select Tool](figures/Select_Tool.png "Select Tool") and select the SU-1 polygon.
 
-17. On the Digitizing toolbar, select the dropdown next to the Fill ring with a new feature (interactive) tool and select Fill all rings in selected polygons with new features tool (selection shown in figure below)
+17. On the Digitizing toolbar, select the dropdown next to the Fill ring with a new feature (interactive) tool and select Fill all rings in selected polygons with new features tool (selection shown in figure below).
 
-![Fill all rings in selected polygons tool](figures/Fill_All_Ring_In_Selected_Polygons.png "Fill all rings in selected polygons tool"). 
+![Fill All Rings In Selected Polygons Tool](figures/Fill_All_Ring_In_Selected_Polygons.png "Fill All Rings In Selected Polygons Tool").
 
 15. You will immediately be prompted to enter the attributes for the new O-1 polygon (id=2, zonecode=O-1).
 
-16. Click OK when done and the new polygon will appear. It automatically fills the space leaving no gaps. 
+16. Click OK when done and the new polygon will appear. It automatically fills the space leaving no gaps.
 
-16. Use the Identify tool ![Identify tool](figures/Identify_tool.png "Identify tool") to click on O-1 and SU-1 and verify that they are digitized correctly. 
+16. Use the Identify tool ![Identify tool](figures/Identify_tool.png "Identify tool") to click on O-1 and SU-1 and verify that they are digitized correctly.
 
-*Note*: If you end up needing to move one or two misplaced vertices on a finished polygon you can do that. Use the Select Single Feature tool ![Single Feature tool](figures/Single_Feature_tool.png "Single Feature tool") to select the polygon, then use the Node Tool ![Node Tool](figures/Node_Tool.png "Node Tool") to select the individual node and move it.
+*Note*: If you end up needing to move one or two misplaced vertices on a finished polygon you can do that. Use the Select Single Feature tool ![Single Feature tool](figures/Single_Feature_tool.png "Single Feature tool") to select the polygon, and then use the Node Tool ![Node Tool](figures/Node_Tool.png "Node Tool") to select the individual node and move it.
 
-To digitize the remaining polygons, we will first turn on snapping options to make it easier to have adjacent polygons share verticies and/or segments.
+To digitize the remaining polygons, we will first turn on snapping options to make it easier to have adjacent polygons share vertices and/or segments.
 
-17. To do so first you will set your snapping environment. Go to the menu bar and choose Settings | Snapping options. 
+17. To do so first you will set your snapping environment. Go to the menu bar and choose Settings | Snapping options.
 
-This is a window that lets you configure what layers you can snap to while editing and set the snapping tolerance. The Mode lets you control what portions of a feature are being snapped to. 
+This is a window that lets you configure what layers you can snap to while editing and set the snapping tolerance. The Snapping mode lets you control what portions of a feature are being snapped to.
 
 + To Vertex will snap to vertices
 + To Segment will snap to any part of another layers edge
 + To Vertex and Segment will snap to both.
 
-The Tolerance determines how close your cursor needs to be to another layer before it snaps to it. It can be set in screen pixels or map units. In our case map units are feet. 
+The Tolerance determines how close your cursor needs to be to another layer before it snaps to it. It can be set in screen pixels or map units. In our case map units are feet.
 
 13. For Snapping mode, change it to Advanced. The Snapping options dialog will now show a list of map layers and options.
 
-15. Check parcels since we want to snap our parcels to that layer. Set the tolerance for parcels to 50 map units and choose a Mode of to vertex.
+15. Check parcels since we want to snap our parcels to that layer. Set the tolerance for parcels to 50 map units and choose a Mode of 'to vertex'.
 
-16. Check the box under Avoid intersections to the right of Units (shown in figure below). This enables Topological editing. When digitizing a shared boundary with this option checked you can begin with one of the vertices at one end of the shared boundary. Then continue digitizing the boundary of the new polygon and end at a vertex at the other end of the shared boundary. The shared boundary will be created automatically eliminating digitizing errors.
+16. Check the box under Avoid intersections to the right of Units (shown in the figure below). This enables Topological editing. When digitizing a shared boundary with this option checked you can begin with one of the vertices at one end of the shared boundary. Then continue digitizing the boundary of the new polygon and end at a vertex at the other end of the shared boundary. The shared boundary will be created automatically eliminating digitizing errors.
 
 ![Snapping Options](figures/Snapping_Options.png "Snapping Options")
 
-The map units are feet so when you get within 50 feet of a node (aka vertex) you will snap to it. This allows you to be much more precise than you could otherwise. 
+The map units are feet so when you get within 50 feet of a node (aka vertex) you will snap to it. This allows you to be much more precise than you could otherwise.
 
 13. Click OK to set the Snapping options.
 
@@ -315,11 +310,11 @@ If snapping is interfering with digitizing a parcel polygon you can go to Settin
 
 17. Finish digitizing the polygons. Anytime you have a parcel that shares a boundary with another, use snapping to make sure you create two parcels without a gap in between.
 
-Remember you can adjust the snapping tolerance and what features are being snapped to Vertex, Segment and Vertex and Segment. 
+Remember you can adjust the snapping tolerance and what features are being snapped to Vertex, Segment and Vertex and Segment.
 
-18. When finished, click the Toggle Editing ![Toggle Editing button](figures/Toggle_Editing_button.png "Toggle Editing button") button to exit out of editing mode. You will be prompted to save your changes. Click Save to save the edits. 
+18. When finished, click the Toggle Editing ![Toggle Editing button](figures/Toggle_Editing_button.png "Toggle Editing button") button to exit out of editing mode. You will be prompted to save your changes. Click Save to save the edits.
 
-19. Turn off the zone_map_modified_spcs raster. You’re done with that now. It was an intermediate step necessary to get the parcel boundaries digitized. 
+19. Turn off the zone_map_modified_spcs raster. You are done with that now. It was an intermediate step necessary to get the parcel boundaries digitized.
 
 20. Save your QGIS project.
 
@@ -357,11 +352,11 @@ You will digitize the missing main road, shown in yellow in the figure below.
 
 20. Toggle off editing and Save.
 
-### 5. Conclusion
+### 4. Conclusion
 
 In this lab, you have successfully digitized information using the five-step digitizing process.  Additionally, you have recreated the original source data (scanned as a raster) in the vector format.  Digitizing can be a time-consuming and tedious process, but can yield useful geographic information.
 
-### 6. Discussion Questions
+### 5. Discussion Questions
 
 1. What can contribute to errors in the georeferencing process?
 
@@ -369,9 +364,9 @@ In this lab, you have successfully digitized information using the five-step dig
 
 3. When you created the parcels shapefile you added a text field to hold the zoning codes. What are the possible field types?  Explain what each field type contains, and provide an example of a valid entry in the field.
 
-4. Aerial photography has a lot of information in it. What other features could you digitize off of the imagery in this lab? Explain what vector geometry you would use for each. 
+4. Aerial photography has a lot of information in it. What other features could you digitize from the imagery in this lab? Explain what vector geometry you would use for each. 
 
-### 7. Challenge Assignment (optional)
+### 6. Challenge Assignment (optional)
 
 You have successfully created the parcel data from a scanned map. You have also fixed the roads data in this part of town. There are some sports facilities visible: two football fields and a baseball field. Create a new layer and digitize those three facilities (include the grassy field areas at a minimum). 
 

@@ -1,0 +1,172 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.2.0-Valmiera">
+    <title></title>
+    <relations/>
+    <mapcanvas>
+        <units>meters</units>
+        <extent>
+            <xmin>656014.30485407914966345</xmin>
+            <ymin>4457902.25730066280812025</ymin>
+            <xmax>657635.87014992628246546</xmax>
+            <ymax>4458919.58510251063853502</ymax>
+        </extent>
+        <projections>1</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=utm +zone=16 +datum=WGS84 +units=m +no_defs</proj4>
+                <srsid>3100</srsid>
+                <srid>32616</srid>
+                <authid>EPSG:32616</authid>
+                <description>WGS 84 / UTM zone 16N</description>
+                <projectionacronym>utm</projectionacronym>
+                <ellipsoidacronym>WGS84</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+        <layer_coordinate_transform_info>
+            <layer_coordinate_transform destAuthId="EPSG:32616" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Statistics20140523104715748"/>
+            <layer_coordinate_transform destAuthId="EPSG:32616" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Statistics20140523112841311"/>
+            <layer_coordinate_transform destAuthId="EPSG:32616" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Statistics20140523105239874"/>
+            <layer_coordinate_transform destAuthId="EPSG:32616" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Statistics20140523105528979"/>
+            <layer_coordinate_transform destAuthId="EPSG:32616" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ag020522_DPAC20140523131935797"/>
+            <layer_coordinate_transform destAuthId="EPSG:32616" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Statistics20140523104925423"/>
+        </layer_coordinate_transform_info>
+    </mapcanvas>
+    <legend updateDrawingOrder="true" activeLayer="ag020522_DPAC20140523131935797">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Supervised Classification" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="ag020522_DPAC20140523131935797" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="ag020522_DPAC" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="ag020522_DPAC20140523085629951" visible="1"/>
+            </filegroup>
+        </legendlayer>
+    </legend>
+    <projectlayers layercount="2">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>ag020522_DPAC20140523085629951</id>
+            <datasource>./Data/ag020522_DPAC.img</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>ag020522_DPAC</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=16 +datum=WGS84 +units=m +no_defs</proj4>
+                    <srsid>3100</srsid>
+                    <srid>32616</srid>
+                    <authid>EPSG:32616</authid>
+                    <description>WGS 84 / UTM zone 16N</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="1" greenBand="2" type="multibandcolor" redBand="3">
+                    <rasterTransparency>
+                        <threeValuePixelList>
+                            <pixelListEntry red="0" blue="0" green="0" percentTransparent="100"/>
+                        </threeValuePixelList>
+                    </rasterTransparency>
+                    <redContrastEnhancement>
+                        <minValue>0</minValue>
+                        <maxValue>185.273</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>0</minValue>
+                        <maxValue>203.203</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>0</minValue>
+                        <maxValue>217.148</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>ag020522_DPAC20140523131935797</id>
+            <datasource>./Data/Solution/ag020522_DPAC.gis</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>Supervised Classification</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=16 +datum=WGS84 +units=m +no_defs</proj4>
+                    <srsid>3100</srsid>
+                    <srid>32616</srid>
+                    <authid>EPSG:32616</authid>
+                    <description>WGS 84 / UTM zone 16N</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" classificationMax="4.98047" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="0.996094" type="singlebandpseudocolor">
+                    <rasterTransparency/>
+                    <rastershader>
+                        <colorrampshader colorRampType="INTERPOLATED" clip="0">
+                            <item alpha="255" value="1" label="Trees" color="#00aa00"/>
+                            <item alpha="255" value="2" label="Wheat" color="#ffff7f"/>
+                            <item alpha="255" value="3" label="Soil" color="#aaaa00"/>
+                            <item alpha="255" value="4" label="Light Soil" color="#aaaa7f"/>
+                            <item alpha="255" value="5" label="No Data" color="#ffffff"/>
+                            <item alpha="255" value="6" label="Weeds" color="#ff0000"/>
+                        </colorrampshader>
+                    </rastershader>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <SpatialRefSys>
+            <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+            <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+            <ProjectCRSID type="int">3452</ProjectCRSID>
+            <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+        </SpatialRefSys>
+        <Paths>
+            <Absolute type="bool">false</Absolute>
+        </Paths>
+        <Gui>
+            <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+            <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+            <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+        </Gui>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+        </PositionPrecision>
+    </properties>
+</qgis>
