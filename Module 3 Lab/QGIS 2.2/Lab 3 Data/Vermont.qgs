@@ -35,7 +35,7 @@
     <projectlayers layercount="1">
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vermont20140504175347959</id>
-            <datasource>./data/vermont.shp</datasource>
+            <datasource>./Data/vermont.shp</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
