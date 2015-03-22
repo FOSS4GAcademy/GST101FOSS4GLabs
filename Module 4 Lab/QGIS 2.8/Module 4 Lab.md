@@ -226,7 +226,7 @@ The BLM has designated colors for each type of land ownership. When composing a 
 
 21. Use the values below to change the RGB colors for the remaining six land ownership classes. Also choose No pen for the border style.
 
-+ BOR | 0-255-255
++ BOR | 255-255-179
 + DOD | 251-180-206
 + FS | 179-222-105
 + FWS | 127-204-167
