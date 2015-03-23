@@ -55,7 +55,7 @@
     <projectlayers layercount="5">
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>IntersectionPoint20140504154933467</id>
-            <datasource>./data/IntersectionPoint.shp</datasource>
+            <datasource>./Data/IntersectionPoint.shp</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -274,7 +274,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>UTM_zones20140512150745652</id>
-            <datasource>./data/UTM_zones.shp</datasource>
+            <datasource>./Data/UTM_zones.shp</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -478,7 +478,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>states4820140504144641826</id>
-            <datasource>./data/states48.shp</datasource>
+            <datasource>./Data/states48.shp</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -685,7 +685,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>uscircle20140504144756945</id>
-            <datasource>./data/uscircle.shp</datasource>
+            <datasource>./Data/uscircle.shp</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -882,7 +882,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>uscities20140504144715645</id>
-            <datasource>./data/uscities.shp</datasource>
+            <datasource>./Data/uscities.shp</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
