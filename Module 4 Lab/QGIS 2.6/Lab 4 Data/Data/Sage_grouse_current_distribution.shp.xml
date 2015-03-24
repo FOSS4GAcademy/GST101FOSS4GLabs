@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Michael A. Schroeder, Washington Department of Fish and Wildlife, Bridgeport, WA</origin>
+				<pubdate>200202</pubdate>
+				<title>Distribution of the Sage-grouse in North America </title>
+				<edition>1.1</edition>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<othercit>The data sets described herein are depicted in Figure 1.1, Chapter 1, p. 16 in Connelly, J. W., S. T. Knick, M. A. Schroeder, and S. J. Stiver.  2004.  Conservation Assessment of Greater Sage-grouse and Sagebrush Habitats.  Western Association of Fish and Wildlife Agencies.  Unpublished Report.  Cheyenne, WY.
+
+Additionally, see:
+
+Schroeder, M. A., et al.  2004.  Distribution of Sage-grouse in North America.  Condor 106:363-376.</othercit>
+				<onlink>http:\\sagemap.wr.usgs.gov</onlink>
+				<ftname Sync="TRUE">Sage_grouse_current_dist_scga</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This metadata references the polygonal ARC/INFO GIS cover showing the current and historic distribution of potential habitat, or range, of the Greater Sage-grouse (Centrocercus urophasianus) and Gunnison Sage-grouse (Centrocercus minimus) in Western North America. This data was initially researched and compiled by Dr. Michael A. Schroeder, research biologist for the Washington State Department of Fish and Wildlife.  The initial draft of current and historic range data was mapped and submitted to state, federal, or provincial natural resource agencies and other experts for review, comment, and editing. The final product represents the best available science and expert review available at the time of compilation.
+
+Definition of "Current Range" - The current sage-grouse distribution is the range believed to be occupied in the late 1990's, based on the best information available.
+
+Definition of "Historic Range" - The historic distribution represents the bird's maximum distribution from the early 1800's to the present (late 1990's).</abstract>
+			<purpose>The purpose of this data compilation and mapping effort was to digitally compile and standardize current and historic sage-grouse range data, at a regional scale, for Western North America.  The GIS data layers resulting from this effort will serve as a baseline for future projects to update and refine Sage-grouse distribution. The layers will be used as a starting point to monitor and analyze changes in the range over time.</purpose>
+			<supplinf>Relatively accurate mapping of a species' distribution is extremely important, particularly in an age where satellite imagery and habitat maps can be linked with management scenarios, which effectively addressing issues of population viability, land-use planning, and habitat quality, quantity, and distribution.  However, the utility of these applications are limited by the availability, currency, digital compatibility, and/or quality of species' range data, which is readily available in a mapped format.  Also, the scale, resolution, and detail in which range distribution data are recorded and/or compiled, can be quite variable and inconsistent across the landscape.
+
+There were three general processing phases required for the creation of these Sage-grouse distribution GIS covers: data research/compilation, data review, and database construction.
+
+DATA RESEARCH AND COMPILATION PROCESS:
+The first step in creating the sage-grouse database was to research, compile, and synthesize the most pertinent data available on the current distribution of Sage-grouse in North America.
+
+Current Distribution
+The current distribution for sage-grouse in North America was estimated by Dr. Schroeder using numerous state-specific maps, on which the projected current distribution was delineated. The source information gathered on current range was reviewed, interpreted, synthesized, and then transcribed onto 1:2,000,000 scale U.S. Geological Survey maps. The polygonal data on the USGS maps was then digitized and attributed, using ARC/INFO software, to create a working draft coverage of Sage-grouse distribution for North America.
+
+Historic Distribution -
+The historic distribution is extremely difficult to document due to a paucity of information.  Consequently, sources like the journals of Meriwether Lewis and William Clark were used, which described the 1803-1806 expedition from the St. Louis, Missouri area to the west coast of Oregon and back (transcribed by Moulton (1986-1997; Vol. 2-11)).  Swainson and Richardson (1831) was one of the few other contemporary publications that provided information about the early distribution of sage-grouse.  Additional summaries on the historic distribution were also considered including McClanahan (1940) and Aldrich and Duvall (1955).  The extent of the pre-settlement ranges were also modified with the aid of maps of original habitats (Kuchler,1964). References on habitat distribution were evaluated relative to specific information on habitat use (Schroeder et al. 1999, Connelly et al. 2000).  The source information gathered on historic range was reviewed, interpreted, synthesized, and then transcribed by Dr. Schroeder onto 1:2,000,000 scale U.S. Geological Survey maps. The polygonal data on the USGS maps was then digitized and attributed, using ARC/INFO software, to create working draft coverage of sage-grouse distribution for North America.
+
+DATA REVIEW PROCESS
+A draft map of western North America was created at a 1:2,000,000 scale, using the US National Atlas information as a base. The GIS cover, representing current and historic Sage-grouse distribution, was then overlaid onto this base map. Numerous representatives from the western states and provinces were sent a copy of this preliminary map and provided an opportunity to review, comment, and revise the "draft" set of current and/or historic sage-grouse range polygons (see the Data_Set_Credits section for a list of respondents). California and Washington responded by providing digital data of current and historic range within their borders.  Most other states responded with proposed changes on draft maps.  Other written and oral comments/suggestions were received from several states. Dr. Schroeder received all the submitted responses and compiled the necessary data revisions.  In some cases, data discrepancies occurred between contributors. Dr. Schroeder facilitated the resolution of these range boundary conflicts among the contributors.
+
+DATABASE CONSTRUCTION PROCESS
+Dr. Schroeder compiled all final revisions/edits on the same base map, which had been distributed for review/comment. These maps were then forwarded to the GIS section of the Wildlife Program at WA Department of Fish and Wildlife for final construction of a GIS database, which represents current and historic range of Sage-grouse in North America.  Using ARC/INFO ARCEDIT software, the digital GIS coverages provided by California and Washington were inserted/imported into the Sage-grouse distribution coverage for North America.  Using the data compilation and editing tools within ARCEDIT, all final revisions/edits delineated on the draft map were incorporated.</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>1800</begdate>
+					<enddate>1999</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-123.732881</westbc>
+				<eastbc Sync="TRUE">-102.269813</eastbc>
+				<northbc Sync="TRUE">49.999432</northbc>
+				<southbc Sync="TRUE">35.723732</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-2075718.250000</leftbc><rightbc Sync="TRUE">-546053.187500</rightbc><bottombc Sync="TRUE">1664430.786406</bottombc><topbc Sync="TRUE">3019224.587599</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Greater Sage-grouse</themekey>
+				<themekey>Gunnison Sage-grouse</themekey>
+				<themekey>Sage-grouse</themekey>
+				<themekey>Centrocercus</themekey>
+				<themekey>urophasianus</themekey>
+				<themekey>minimus</themekey>
+				<themekey>distribution</themekey>
+				<themekey>range</themekey>
+				<themekey>current</themekey>
+				<themekey>present-day</themekey>
+				<themekey>historic</themekey>
+				<themekey>habitat</themekey>
+				<themekey>pre-settlement</themekey>
+				<themekey>potential</themekey>
+				<themekey>habitat</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>United States</placekey>
+				<placekey>Canada</placekey>
+				<placekey>North America</placekey>
+				<placekey>Washington</placekey>
+				<placekey>Oregon</placekey>
+				<placekey>California</placekey>
+				<placekey>Idaho</placekey>
+				<placekey>Nevada</placekey>
+				<placekey>Utah</placekey>
+				<placekey>Montana</placekey>
+				<placekey>Wyoming</placekey>
+				<placekey>Colorado</placekey>
+				<placekey>North Dakota</placekey>
+				<placekey>South Dakota</placekey>
+				<placekey>Alberta</placekey>
+				<placekey>Saskatchewan</placekey>
+			</place>
+			<theme><themekey>Biology and Ecology</themekey><themekey>Bird Conservation</themekey><themekey>Ecosystems</themekey><themekey>Environment and Conservation</themekey><themekey>Natural Resources</themekey><themekt>Geospatial One Stop</themekt></theme></keywords>
+		<accconst>None.</accconst>
+		<useconst>For use at scales greater then 1:1,500,000.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>John Talmadge</cntper>
+					<cntorg>Washington Department of Fish and Wildlife</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>600 Capitol Way North</address>
+					<city>Olympia</city>
+					<state>WA</state>
+					<postal>98501-1091</postal>
+				</cntaddr>
+				<cntvoice>(360) 902-2492</cntvoice>
+				<cntemail>talmajft@dfw.wa.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Dr. Michael A. Schroeder, Washington Department of Fish and Wildlife, Bridgeport, WA</datacred>
+		<secinfo>
+			<secsys>none</secsys>
+			<secclass>none</secclass>
+			<sechandl>none</sechandl>
+		</secinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.0.1324</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>The accuracy varies from state to state depending on the knowledge of the biologists involved.</attraccr>
+		</attracc>
+		<logic>Polygon topology present.</logic>
+		<complete>Given the scale (1:2,000,000), the data is obviously highly generalized. For more specific information about an individual state or province it would be best to contact the natural resource agency responsible for managing the Sage-grouse in that jurisdiction.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>estimated resolution</horizpar>
+				<qhorizpa>
+					<horizpav>100,000</horizpav>
+					<horizpae>Resolution as reported</horizpae>
+				</qhorizpa>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Various</origin>
+						<pubdate>Unknown</pubdate>
+						<title>References used in creation of current and historic Sage-grouse distribution in North America</title>
+					</citeinfo>
+				</srccite>
+				<typesrc>Various</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1800</begdate>
+							<enddate>1990</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Various</srccurr>
+				</srctime>
+				<srccitea>References</srccitea>
+				<srccontr>Aldrich, J. W. 1946. New subspecies of birds from western North America. Proceedings of Biological Society of Washington 59:129-136.
+
+Aldrich, J. W. 1963. Geographic orientation of North American Tetraonidae. Journal of Wildlife Management 27:529-545.
+
+Aldrich, J. W., and A. J. Duvall. 1955. Distribution of American gallinaceous game birds. U.S. Department of the Interior, U.S. Fish and Wildlife Service Circular 34.
+
+Aldridge, C. L. 1998. Status of the Sage Grouse (Centrocercus urophasianus) in Alberta. Alberta Environmental Protection, Wildlife Management Division, and Alberta Conservation Association, Edmonton.  Wildlife Status Report 13.
+
+Bent, A. C.1932. Life Histories of North American gallinaceous birds. Dover Publications, Inc.
+
+Braun, C. E. 1995. Distribution and status of Sage Grouse in Colorado. Prairie Nat. 27:1-9.
+
+Braun, C. E. 1998. Sage Grouse declines in western North America: what are the problems? Proceedings of the Western Association State Fish and Wildlife Agencies 78:139-156.
+
+Connelly, J. W., and C. E. Braun.1997.Long-term changes in Sage Grouse Centrocercus urophasianus populations in western North America. Wildlife Biol. 3:229-234.
+
+Connelly, J. W., H. W. Browers, and R. J. Gates.1988.Seasonal movements of sage grouse in southeastern Idaho. Journal of Wildlife Management 52:116-122.
+
+Crawford, J. A. 1982b. History of Sage Grouse in Oregon. Oregon Wildlife, March:3-6.
+
+Drut, M. S. 1994. Status of Sage Grouse with emphasis on populations in Oregon and Washington. Audubon Society of Portland, Oregon.
+
+Emslie, S. D. 1986. Late Pleistocene vertebrates from Gunnison County, Colorado. Journal of Paleontology 60:170-176.
+
+Emslie, S. D., and T. H. Heaton. 1987. The late Pleistocene avifauna of Crystal Ball Cave, Utah. Journal of the Arizona-Nevada Academy of Science 21:53-60.
+
+Grayson, D. K. 1976. A note on the prehistoric avifauna of the lower Klamath Basin. Auk 93:830-833.
+
+Griner, L. A. 1939. A study of the Sage Grouse (Centrocercus urophasianus), with special reference to life history, habitat requirements, and numbers and distribution. Masters Degree thesis, Utah State Agricultural College, Logan, Utah.
+
+Hammerstrom, F. N., Jr., and F. Hammerstrom. 1961. Status and problems of North American grouse. Wilson Bulletin 73:284-294.
+
+Hays, D. W., M. J. Tirhi, and D. W. Stinson.1998.Washington State status report for the Sage Grouse. Washington Department of Fish and  Wildlife, Olympia, Washington. Hornaday, W. T. 1916. Save the Sage Grouse from extinction, a demand from civilization to the western states. New York Zoological Park Bulletin 5:179-219.
+
+Howard, H. 1946. A review of the Pleistocene birds of Fossil Lake, Oregon. Contributions to paleontology. Carnegie Institute Washington Publication 551:141-195.
+
+Howard, H.1952.The prehistoric avifauna of Smith Creek Cave, Nevada, with a description of a new gigantic raptor. Bulletin of the Southern California Academy of Science. 51(2):50-54.
+
+Howard, H., and A. H. Miller. 1933. Bird remains from cave deposits in New Mexico. Condor 35:15-18.
+
+Johnsgard, P. A. 1983. The grouse of the world. University of Nebraska Press, Lincoln, NE.
+
+Kuchler, A. W.1964.Potential natural vegetation of the conterminous United States. American Geographic Society Special Publication, Number 36, Philadelphia, PA.
+
+Leach, H. R., and A. L. Hensley. 1954. The Sage Grouse in California, with special reference to food habits. California Fish and Game Department 40:385-394.
+
+Leopold, A.1931.Report on a game survey of the North Central States. American Game Association, Madison, WI.
+
+Locke, S. B. 1932. The sage hen situation and its needs. Trans. American Game Conference 19:408-410.
+
+Lords, J. L. 1951. Distribution, ecology, and population dynamics of the Sage Grouse in Utah. M.S. thesis, University of Utah, Salt Lake City, UT.
+
+McClanahan, R. C. 1940. Original and present breeding ranges of certain game birds in the United States. U.S. Department of the Interior, Bureau of Biological Survey, Wildlife Leaflet. BS-158.
+
+Miller, L. 1963. Birds and Indians in the west. Bulletin of the Southern California Academy of Science. 4(64):178-191.
+
+Moulton, G. E. (ed.).1986-1993.The journals of Lewis and Clark. Vols. 2-11.  University of Nebraska Press, Lincoln, NE.
+
+Patterson, R. L. 1952. The Sage Grouse in Wyoming. Sage Books, Inc., Denver, CO.
+
+Peterson, J. G. 1970. The food habits and summer distribution of juvenile Sage Grouse in central Montana. Journal of Wildlife Management 34:147-155.
+
+Phillips, A., J. Marshall, and G. Monson.1964.The birds of Arizona.  University of Arizona Press, Arizona.
+
+Rea, A. M.1980.Contributions to Science and Natural History Museum.  Los Angeles County.330:209-224.
+
+Ridgway, R., and H. Freidman. 1946. The birds of North and Middle America, Part 10, Galliformes. Smithsonian Institute Bulletin 50:1-484.
+
+Sealy, S. G. 1963. Sage Grouse distribution. Alberta Department of Lands And Forests, Edmonton, Alberta. Wildlife Investigations Program Representative
+
+Schroeder, M. A., J. R. Young, and C. E. Braun.1999.Sage grouse (Centrocercus urophasianus).In The birds of North America. No. 425 (A. Poole and F. Gill, eds.).The Birds of North America, Inc., Philadelphia, PA.
+
+Schroeder, M. A., D. W. Hays, M. F. Livingston, L. E. Stream, J. E. Jacobson, D. J. Pierce, and T. McCall.2000.Changes in the distribution and abundance of sage grouse in Washington. Northwestern Naturalist 81:104-112.
+
+Short, L. L. 1967. A review of the genera of grouse (Aves, Tetraonidae). Am. Mus. Novit. 2289.
+
+Shufeldt, R. W. 1913. Review of the fossil fauna of the desert region of Oregon, with a description of additional material collected there.  Bulletin American Museum of Natural History 32:123-178.
+
+Skaar, P. D.1992.Montana bird distribution, Fourth Edition.  Special Publication Number 2, Montana Natural Heritage Program, Montana.
+
+Small, A.1994.California birds: their status and distribution. Ibis Publishing Company, California.
+
+Stephens, D. A.1991.Idaho bird distribution.  Idaho Museum of Natural History, Pocatello, ID
+
+Swainson, W., and J. Richardson. 1831. Fauna boreali-Americana. Part 2.  The birds. J. Murray Publication, London, U.K.
+
+Wallestad, R. O. 1975a. Life history and habitat requirements of Sage Grouse in central Montana. Montana Department Fish, Game, and Parks, Helena, MT.
+
+Washington Department of Fish and Wildlife. 1995. Washington State management plan for Sage Grouse. Washington Department Fish and Wildlife, Olympia, WA.
+
+Yocom, C. N. 1956. The sage hen in Washington State. Auk 73:540-550.
+
+Zwickel, F. C., and M. A. Schroeder. Grouse of the Lewis and Clark Expedition, 1803-1806.  In preparation.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Various</origin>
+						<pubdate>Unknown</pubdate>
+						<title>External reviews of the current and historic distributions of the Sage-grouse in North America</title>
+					</citeinfo>
+				</srccite>
+				<typesrc>Various</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1999</begdate>
+							<enddate>2001</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Various</srccurr>
+				</srctime>
+				<srccitea>External Reviews</srccitea>
+				<srccontr>External reviewers (NOTE: may not be complete list)
+
+Tony Apa
+Colorado Division of Wildlife
+317 West Prospect
+Fort Collins, CO 80526
+719-255-6196
+
+Bradley D. Bales
+Oregon Department of Fish and Wildlife
+Oregon
+503-872-5260
+
+Sam Blankenship
+California Department of Fish and Game
+1416 9th Street Rm. 1270,
+Sacramento, CA 95814
+916-653-1759
+
+Joseph Bohne
+Wildlife Management Coordinator
+Wyoming Game and Fish Department
+P.O. Box 67
+Jackson, WY 83001
+307-733-2321
+
+Clait E. Braun
+Ecologist
+Grouse, Inc.
+5572 N Ventana Vista Road
+Tucson. AZ 85750
+520-529-0365
+
+Jack W. Connelly
+Idaho Department of Fish and Game
+1345 Barton Road
+Pocatello, ID 83204
+208-232-4703
+
+Tom Christiansen
+Wildlife Biologist
+Wyoming Game and Fish Department
+351 Astle Avenue
+Green River, WY 82935
+307-875-3225, Ext. 227
+
+John A. Crawford
+Professor of Wildlife Ecology
+Oregon State University
+Department of Fisheries and Wildlife
+NASH 104
+Corvallis, OR 97331
+541-737-1971
+
+Charles Eustace,
+Montana Fish
+Wildlife and Parks
+2300 Lake Elmo Drive
+Billings MT 59101
+406-444-2612
+
+Robert M. Gibson
+School of Biological Sciences
+348 Manter Hall
+University of Nebraska
+Lincoln, Lincoln, NE 68588
+
+Frank Hall
+Associate Wildlife Biologist
+California Department Fish and Game
+728-600 Fish &amp; Game Road,
+Wendel, CA 96136
+530-254-6808
+
+Wayne Harris
+Wildlife Ecologist
+Saskatchewan Environment and Resource Management
+Box 5000
+350 Cheadle St. W
+Swift Current, SK S9H 4G3
+306-778-8218
+
+Tom Hemker
+State Gamebird Biologist
+Idaho Fish and Game
+P. O. Box 25
+Boise, ID 83707
+208-334-2920
+
+G. D. Kobriger
+North Dakota Game and Fish Department
+Route 1, Box 56,
+Dickinson, ND 58601
+701-227-7431
+
+Ken Lungle
+Provincial Bird Game Specialist
+Alberta Environment
+Main Floor, 9915-108 Street
+Edmonton, Alberta T5K 2G8
+708-427-6612
+
+John McCarthy
+Montana Fish, Wildlife and Parks
+1420 East Sixth Avenue
+Helena, MT 59601
+406-444-2612
+
+Brian Meiers
+South Dakota Game, Fish and Parks Department
+Box 14
+Buffalo, SD 57720
+605-375-3700
+
+Dean L. Mitchell
+Upland Game Coordinator
+Utah Division Wildlife Resources
+1594 W. No. Temple, Ste. 2110
+Box 146301, Salt Lake City, UT 84114-6301
+801-538-4786
+
+Kerry P. Reese
+University of Idaho, Wildlife and Range Sciences
+Moscow, ID 83844-1136
+208-885-6434
+
+Eric Rickerson
+Oregon Department of Fish and Wildlife
+2501 SW 1st Ave
+Portland, OR 97207
+503-872-5260
+
+San J. Stiver
+Nevada Division of Wildlife
+1100 Valley Rd.
+Reno, NV 89512
+775-688-1523
+
+Walt Van Dyke
+District Wildlife Biologist
+Oregon Department of Fish and Wildlife
+3814 Clark Blvd.
+Ontario, OR 97914
+541-889-6975
+
+Chris Warren
+U.S. Fish and Wildlife Service
+11103 E. Montgomery Drive
+Spokane, WA 99206
+509-921-0160
+
+Todd Thompson
+Bureau of Land Management
+N. 1103 Fancher Road
+Spokane, WA 99212
+509-536-1241</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Using U.S. Geologic Survey's 1:2,000,000 National atlas series maps as a base, a preliminary historic and current Sage-grouse ranges were drawn on mylar acetate sheets by Dr. Schroeder. The sheets were registered to the national atlas maps using the Albers projection in which the atlas series was created.</procdesc>
+				<srcused>USGS 1:2,000,000 National Atlas series maps</srcused>
+				<srcused>References</srcused>
+				<procdate>1999</procdate>
+				<srcprod>preliminary ranges</srcprod>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>John Talmadge</cntper>
+							<cntorg>Washington Department of Fish and Wildlife</cntorg>
+						</cntperp>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>600 Capitol Way N</address>
+							<city>Olympia</city>
+							<state>WA</state>
+							<postal>98501</postal>
+						</cntaddr>
+						<cntvoice>(360) 902-2492</cntvoice>
+						<cntemail>talmajft@dfw.wa.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>In ARCEDIT, we created the initial draft polygonal coverages of Sage-grouse ranges from acetate sheets (from previous step), as well as the digitized current and historic ranges provided by Washington state.  The maps were overlayed on a map of western North America created using the digital information from the USGS National Atlas.</procdesc>
+				<srcused>preliminary ranges (from previous step)</srcused>
+				<srcused>Digitized current and historic ranges from WA</srcused>
+				<procdate>1999</procdate>
+				<srcprod>initial draft - Sage-grouse GIS ranges</srcprod>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>John Talmadge</cntper>
+							<cntorg>Washington Department of Fish and Wildlife</cntorg>
+						</cntperp>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>600 Capitol Way N</address>
+							<city>Olympia</city>
+							<state>WA</state>
+							<postal>98501</postal>
+						</cntaddr>
+						<cntvoice>(360) 902-2492</cntvoice>
+						<cntemail>talmajft@dfw.wa.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>We disseminated the initial draft of the Sage-grouse ranges for input and review.  Copies of the draft map were produced and sent to Dr. Schroeder who in turn distributed the maps to the representatives from the natural resource agencies of California, Oregon, Washington, Nevada, Idaho, Montana, Utah, Wyoming, Colorado, North Dakota, South Dakota, Alberta, and Saskatchewan, along with a number of other experts in the field with whom he had been in contact.  The copies were returned to Dr. Schroeder for compilation from all agencies except the California Department of Fish and Wildlife who had created a digital cover from their own information.</procdesc>
+				<srcused>initial draft - Sage-grouse GIS ranges</srcused>
+				<procdate>1999</procdate>
+				<srcprod>External reviews</srcprod>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>John Talmadge</cntper>
+							<cntorg>Washington Department of Fish and Wildlife</cntorg>
+						</cntperp>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>600 Capitol Way N</address>
+							<city>Olympia</city>
+							<state>WA</state>
+							<postal>98501</postal>
+						</cntaddr>
+						<cntvoice>(360) 902-2492</cntvoice>
+						<cntemail>talmajft@dfw.wa.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Incorporated California DFW digital data with the draft Sage-grouse coverages and edit draft Sage-grouse covers, adding changes proposed by the natural resource agencies with conflicts resolved by Dr. Schroeder.</procdesc>
+				<srcused>External reviews</srcused>
+				<procdate>2002</procdate>
+				<srcprod>Sage-grouse_current_distribution_sgca</srcprod>
+				<srcprod>Sage-grouse_historic_distribution_sgca</srcprod>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>John Talmadge</cntper>
+							<cntorg>Washington Department of Fish and Wildlife</cntorg>
+						</cntperp>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>600 Capitol Way N</address>
+							<city>Olympia</city>
+							<state>WA</state>
+							<postal>98501</postal>
+						</cntaddr>
+						<cntvoice>(360) 902-2492</cntvoice>
+						<cntemail>talmajft@dfw.wa.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\CONDOR\D$\FG_Species\western_grazing.gdb</srcused><date Sync="TRUE">20070716</date><time Sync="TRUE">18241300</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="Sage_grouse_current_distribution2"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic_USGS_version</projcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="Sage_grouse_current_distribution2">
+			<attr>
+				<attrlabl Sync="TRUE">HECTARES</attrlabl>
+				<attrdef>Polygon area</attrdef>
+				<attrdefs>User-defined</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>2</rdommin>
+						<rdommax>24066728</rdommax>
+						<attrunit>hectares</attrunit>
+					</rdom>
+				</attrdomv>
+				<attalias Sync="TRUE">HECTARES</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<enttyp>
+				<enttypl Sync="TRUE">Sage_grouse_current_distribution2</enttypl>
+				<enttypd>Attributes of Sage-grouse_current_distribution</enttypd>
+				<enttypds>ESRI</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">AREA</attrlabl>
+				<attrdef>Polygon area in internal units squared</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive value assigned automatically</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">AREA</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERIMETER</attrlabl>
+				<attrdef>Polygon perimeter length in internal units</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive value assigned automatically</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">PERIMETER</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CURRENT_</attrlabl>
+				<attrdef>Internal Feature Number</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique positive integer</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">CURRENT_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CURRENT_ID</attrlabl>
+				<attrdef>User-assigned feature number</attrdef>
+				<attrdefs>User-defined</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">CURRENT_ID</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl Sync="TRUE">SPECIES</attrlabl>
+				<attrdef>Sage-grouse species</attrdef>
+				<attrdefs>J. R. Young et al.  2000.  Wilson Bulletin 112:445-453.</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Northern</edomv>
+						<edomvd>Greater Sage-grouse (Centrocercus urophasianus)</edomvd>
+						<edomvds>J. R. Young et al.  2000.  Wilson Bulletin 112:445-453.</edomvds>
+					</edom>
+					<edom>
+						<edomv>Gunnison</edomv>
+						<edomvd>Gunnison Sage-grouse (Centrocercus minimus)</edomvd>
+						<edomvds>J. R. Young et al.  2000.  Wilson Bulletin 112:445-453.</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">SPECIES</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Acres</attrlabl><attalias Sync="TRUE">Acres</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>USGS Snake River Field Station</cntorg>
+				</cntorgp>
+				<cntpos>Geographer</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>970 Lusk St.</address>
+					<city>Boise</city>
+					<state>ID</state>
+					<postal>83706</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>208-426-5204</cntvoice>
+				<cntfax>208-426-5210</cntfax>
+				<cntemail>tzarriel@usgs.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable data</resdesc>
+		<distliab>We make every effort to provide and maintain accurate, complete, usable, and timely information on our web sites. However, some USGS data and information accessed through these pages may, of necessity, be preliminary in nature and presented prior to final review and approval by the Director of the USGS. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>SHP</formname>
+					<transize>0.355</transize>
+					<dssize Sync="TRUE">0.000</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>SAGEMAP</networkr>
+							</networka>
+						</computer>
+						<accinstr>from 'Data Query and Download' page, search on Regional Data and Sage Grouse</accinstr>
+						<oncomp>http://sagemap.wr.usgs.gov</oncomp>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>none</fees>
+			<ordering>download from SAGEMAP (http://sagemap.wr.usgs.gov)</ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20070718</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>John Talmadge</cntper>
+					<cntorg>Washington Department of Fish and Wildlife</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>600 Capitol Way N</address>
+					<city>Olympia</city>
+					<state>WA</state>
+					<postal>98501</postal>
+				</cntaddr>
+				<cntvoice>(360) 902-2492</cntvoice>
+				<cntemail>talmajftt@dfw.wa.gov</cntemail>
+				<hours>9 am - 5 pm</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>none</metac>
+		<metuc>none</metuc>
+		<metsi>
+			<metscs>none</metscs>
+			<metsc>none</metsc>
+			<metshd>none</metshd>
+		</metsi>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta></metainfo>
+	<Esri><CreaDate>20140513</CreaDate><CreaTime>15512200</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20140513</SyncDate><SyncTime>16080600</SyncTime><ModDate>20140513</ModDate><ModTime>16080600</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20070716" Time="182336">CopyFeatures Values\Sage-grouse_current_distribution_sgca D:\FG_Species\western_grazing.gdb\Sage_grouse_current_distribution_sgca # 0 0 0</Process><Process Name="Project_7" ToolSource="D:\FG_Species\wspecies.tbx\Project" Date="20070716" Time="182414">Project D:\FG_Species\western_grazing.gdb\Sage_grouse_current_distribution_sgca D:\FG_Species\western_grazing.gdb\Sage_grouse_current_distribu PROJCS['USA_Contiguous_Albers_Equal_Area_Conic_USGS_version',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Albers'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-96.0],PARAMETER['Standard_Parallel_1',29.5],PARAMETER['Standard_Parallel_2',45.5],PARAMETER['Latitude_Of_Origin',23.0],UNIT['Meter',1.0]] NAD_1927_To_NAD_1983_6 PROJCS['Albers_sagegrouse',GEOGCS['GCS_North_American_1927',DATUM['D_North_American_1927',SPHEROID['Clarke_1866',6378206.4,294.9786982]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Albers'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-96.0],PARAMETER['Standard_Parallel_1',29.5],PARAMETER['Standard_Parallel_2',45.5],PARAMETER['Latitude_Of_Origin',23.0],UNIT['Meter',1.0]]</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20070718" Time="143841">CopyFeatures D:\FG_Species\western_grazing.gdb\Sage_grouse_current_dist_scga D:\FG_Species\for_web\Sage_grouse_current_dist_scga.shp # 0 0 0</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Analysis Tools.tbx\Clip" Date="20140513" Time="160806">Clip "C:\GST101\Lab 4\Data\Sage_grouse_current_distribution.shp" Western_states "C:\GST101\Lab 4\Data\Sage_grouse_current_distribution2.shp" #</Process></lineage><itemProps><itemName Sync="TRUE">Sage_grouse_current_distribution2</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize><itemLocation><linkage Sync="TRUE">file://\\CONDOR\C$\GST101\Lab 4\Data\Sage_grouse_current_distribution2.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic_USGS_version</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;USA_Contiguous_Albers_Equal_Area_Conic_USGS_version&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-96.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,29.5],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,45.5],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,23.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;ESRI&amp;quot;,102039]]&lt;/WKT&gt;&lt;XOrigin&gt;-16901100&lt;/XOrigin&gt;&lt;YOrigin&gt;-6972200&lt;/YOrigin&gt;&lt;XYScale&gt;266467840.99085236&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102039&lt;/WKID&gt;&lt;LatestWKID&gt;102039&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143</envirDesc><dataLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">Sage_grouse_current_distribution2</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-2075718.25</westBL><eastBL Sync="TRUE">-546053.1875</eastBL><northBL Sync="TRUE">3019224.587599</northBL><southBL Sync="TRUE">1664430.786406</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-123.732881</westBL><eastBL Sync="TRUE">-102.269813</eastBL><northBL Sync="TRUE">49.999432</northBL><southBL Sync="TRUE">35.723732</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="006"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\CONDOR\D$\FG_Species\for_web\Sage_grouse_current_dist_scga.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="102039">USA_Contiguous_Albers_Equal_Area_Conic_USGS_version</identCode><idCodeSpace Sync="TRUE">ESRI</idCodeSpace><idVersion Sync="TRUE">10.1.1</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="Sage_grouse_current_distribution2"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20140513</mdDateSt></metadata>
