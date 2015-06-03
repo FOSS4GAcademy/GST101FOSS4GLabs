@@ -180,7 +180,7 @@ You can pick existing Basic colors or define a color via A) hue, saturation and 
 
 7. Click OK on the Layer Properties window to close and style the Canada layer.
 
-8. Open Layer Properties for Mexico. Make Mexico look the same as Mexico. You can just choose the Custom color you just saved to save time.
+8. Open Layer Properties for Mexico. Make Mexico look the same as Canada. You can just choose the Custom color you just saved to save time.
 
 Your map should now look like figure below.
 
